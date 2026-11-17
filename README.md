@@ -1,5 +1,7 @@
 # OpenHarmony Prototype-Pollution Artifact
 
+This artifact accompanies submission #464 to the 2027 IEEE Symposium on Security and Privacy (S&P 2027). It contains the runtime instrumentation patch and core scripts used in our study of universal prototype pollution gadgets in OpenHarmony.
+
 ## 1. Directory structure
 
 ```text
