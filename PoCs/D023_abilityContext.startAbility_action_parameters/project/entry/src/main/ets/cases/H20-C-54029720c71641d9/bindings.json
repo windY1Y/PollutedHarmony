@@ -1,0 +1,102 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H20-C-54029720c71641d9",
+  "card": "H20",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "want": {
+      "bundleName": "org.oh.ppv3.peera",
+      "abilityName": "PeerAbility",
+      "action": "oh.ppv3.ACTION_A",
+      "parameters": {
+        "canary": "PPV630"
+      }
+    },
+    "options": {},
+    "link": "https://ppv3.invalid/ppv630",
+    "abilityResult": {
+      "resultCode": 0,
+      "want": {
+        "parameters": {
+          "canary": "PPV630"
+        }
+      }
+    }
+  },
+  "values": {
+    "inj0": "oh.ppv3.ACTION_B"
+  },
+  "shadowValue": "oh.ppv3.ACTION_A",
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 0,
+    "path": []
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [],
+    "requested": [],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {},
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H20-C-54029720c71641d9.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "string",
+      "declarations": [],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

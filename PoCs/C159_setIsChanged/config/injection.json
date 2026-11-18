@@ -1,0 +1,7 @@
+{
+  "key": "map_",
+  "mode": "proxy",
+  "path": "get.apply.setIsChanged",
+  "injections": null,
+  "testArgs": "ppKey:map_;ppMode:proxy"
+}

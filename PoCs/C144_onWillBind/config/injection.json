@@ -1,0 +1,7 @@
+{
+  "key": "onWillBind",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onWillBind;ppMode:proxy"
+}

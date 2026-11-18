@@ -1,0 +1,34 @@
+{
+  "caseId": "H01-C-fa703c21ef035363",
+  "source": "Test.js",
+  "bindings": "bindings.json",
+  "controls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "repetitions": 3,
+  "materialize": [
+    "python3",
+    "scripts/materialize.py",
+    "--case",
+    "H01-C-fa703c21ef035363",
+    "--out",
+    "work/projects/H01-C-fa703c21ef035363"
+  ],
+  "runtimeEntry": "run(context, bindings)",
+  "requiredHost": "stage Ability",
+  "compiled": true,
+  "deviceExecuted": true,
+  "compilationKind": "included_in_group_HAP",
+  "compiledArtifacts": [
+    "H01-C-fa703c21ef035363-runner.hap"
+  ],
+  "securityValidationCompleted": false,
+  "deviceExecutionScope": "controlled_canary_API_validation",
+  "deviceAttempts": [
+    "reports/H01-bound-v1/H01-C-fa703c21ef035363",
+    "reports/H01-bound-v2/H01-C-fa703c21ef035363"
+  ]
+}

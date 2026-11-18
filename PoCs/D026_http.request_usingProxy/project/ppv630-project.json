@@ -1,0 +1,20 @@
+{
+  "caseId": "H04-R1-af94949e614c4366",
+  "includedCaseIds": [
+    "H04-R1-af94949e614c4366",
+    "H04-R1-d09b17715277187c"
+  ],
+  "card": "H04",
+  "adapter": "proxy_r1",
+  "role": "runner",
+  "bundleName": "org.oh.ppv3.runner",
+  "compiled": false,
+  "deviceExecuted": false,
+  "bindingReviewRequired": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  }
+}

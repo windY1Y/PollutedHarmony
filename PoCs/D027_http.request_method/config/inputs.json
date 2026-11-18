@@ -1,0 +1,572 @@
+[
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "CLEAN",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-015777f01335479da9c33a8807445470"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "B",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-08710d20f9354c13b339cf28f88cae5f"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "PT",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-110121aa5ca847ee95f761f0575b001a"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "P",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-15893ea44b17425b986e60fcb656501d"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "P",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-3321fd4b8c28421d8dd390f4fb743eff"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "PT",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-351e8cf2dc274b1aaf50bf4c4cbbdf8d"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "B",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-503c474877f7456984189984c120019f"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "B",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-673be275241041d5acc3cbf1ff5049f9"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "CLEAN",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-692f2a14b1a148b1a7b94759e6269b7b"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "OWN_SHADOW",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-6e67d83510e84ae694e26972e789c9cb"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "CLEAN",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-9743093bb4f445d08bd78af462b3c3c3"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "OWN_SHADOW",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-bae76ded680545d2b5ce01f0cd56c2d7"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "OWN_SHADOW",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-f661be0f0ca144adba9de677c4a25fb0"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "P",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-fac67f7d52f94a0d9699350f92249870"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "PT",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_POST_C12-fdf2eb054d574dc5a5f707ec044f36a4"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "POST"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "PT",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-1214ca36e40d4965a4f1e12e1f62f31b"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "P",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-12fa215ecd4f472d9ed88a559e3b75be"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "B",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-1e4fd4b067ad4b9bb4797c7ae13d0903"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "OWN_SHADOW",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-2cb5b2efdbdd477e9acbeec32976f9be"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "P",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-37be4ad9885e481ca58a9dfb70686124"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "OWN_SHADOW",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-436ebce867c74d6cba5c6288da67ea18"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "OWN_SHADOW",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-6ddbfc126ef24f1d85a8085f6160947f"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "PT",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-72ccc032e9f046519ec1b7dfc3efeba0"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "CLEAN",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-87d9e21e360f48a6a632472096d45e6a"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "B",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-957991f0c45a41288e06988f3fc5bb14"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "P",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-d6edec2798784eeda4ff86b14f9ad647"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "PT",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-d886d5b0ac324fbaa753109c32c540a9"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "B",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-d985eab7d5f24d46ae018407f0b6daf5"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "CLEAN",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-e4eb3d7ddbbb4145bbfbd7c4c766b256"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  },
+  {
+    "caseId": "H05-C-d292c194fb5cb5b9",
+    "group": "CLEAN",
+    "key": "method",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12-f59eb964f8f547a29f2ed323fd2efadc"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:20620/verb"
+    },
+    "payloadDescription": {
+      "key": "method",
+      "value": "DELETE"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "key": "onSurfaceDestroyed",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onSurfaceDestroyed;ppMode:proxy"
+}

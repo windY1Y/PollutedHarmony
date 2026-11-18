@@ -1,0 +1,7 @@
+{
+  "key": "onTouchEvent",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onTouchEvent;ppMode:proxy"
+}

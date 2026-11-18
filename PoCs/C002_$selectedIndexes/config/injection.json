@@ -1,0 +1,7 @@
+{
+  "key": "$selectedIndexes",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:$selectedIndexes;ppMode:proxy"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "controller",
+  "mode": "proxy",
+  "path": "getCustomeSchemeCmdLine",
+  "injections": null,
+  "testArgs": "ppKey:controller;ppMode:proxy"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "onWidthDidChange",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onWidthDidChange;ppMode:proxy"
+}

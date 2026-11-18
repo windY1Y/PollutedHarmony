@@ -1,0 +1,105 @@
+{
+  "schema": "oh-pp-config-v1",
+  "card": "H02",
+  "caseId": "H02-C-ea83121caee5546b",
+  "target": {
+    "module": "net.webSocket",
+    "api": "WebSocket.connect",
+    "observed_property": "skipServerCertVerification",
+    "configured_property": "skipServerCertVerification",
+    "inferred_property": "skipServerCertVerification",
+    "arg_path": "arg[1].skipServerCertVerification",
+    "source": "prototype"
+  },
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "timeoutMs": 20000,
+  "ordinary": {
+    "url": "wss://10.98.36.180:18443/ws",
+    "options": {},
+    "message": "PPV3_WSS_CANARY"
+  },
+  "injection": {
+    "key": "skipServerCertVerification",
+    "value": true
+  },
+  "shadow": false,
+  "fixtures": {},
+  "permissions": {
+    "declared_api_contracts": [
+      "ohos.permission.INTERNET"
+    ],
+    "manifest_mentions": [
+      "ohos.permission.INTERNET"
+    ],
+    "profile": "ordinary",
+    "actual_grants": null,
+    "requested": [
+      "ohos.permission.INTERNET"
+    ],
+    "note": "Manifest request is not proof of a grant. Signature/APL/ACL and device grants are separately recorded."
+  },
+  "conditions": [
+    "Fixed invalid-hostname certificate; baseline may already accept self-signed certificates",
+    "Server frame receipt required; connect() success alone insufficient"
+  ],
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "oracle": {
+    "behavior_prediction": "继承的 skipServerCertVerification 布尔值或证书配置改变 WSS 连接选项。",
+    "security_success": "相同 WSS 端点和授权下，污染使基线拒绝的不可信服务端建立连接并收到测试消息。",
+    "collect": "握手错误码、证书指纹和服务端消息日志。",
+    "falsifying_result": "读取确认后不可信连接仍被拒绝；若基线也接受则本次测试不能归因污染。",
+    "invalid_experiment_conditions": [
+      "目标调用/读取未到达",
+      "原型安装不在目标 realm",
+      "基线已满足所谓成功条件",
+      "普通参数、权限或资源状态在组间改变",
+      "只有测试桩/框架产生变化"
+    ],
+    "verdicts": [
+      "security_effect_supported",
+      "behavior_only",
+      "not_reproduced_under_tested_conditions",
+      "invalid_experiment",
+      "needs_evidence"
+    ]
+  },
+  "bindingNotes": [],
+  "scope": "one saved representative; no automatic extension to all card members",
+  "execution": {
+    "compiled": true,
+    "executed": false
+  },
+  "repetitions": 3,
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "afterTimeoutMs": 15000,
+  "hypothesisReview": {
+    "source": "explicit user statement in this conversation",
+    "accepted": true,
+    "runtimeValidation": false
+  },
+  "buildArtifact": {
+    "signedHap": "/data/oh-testing/v2/05_validation/round3-codegen-20261013/work/all-build-20261013/artifacts/H02-normal-signed.hap",
+    "sha256": "c4420eb185e95576fc067dd5d70984b3d9db5cf4d41fb5e67d9153f251368b89",
+    "signatureAPL": "normal",
+    "signatureACL": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "caseId": "H23-C-10a944994bb12a49",
+  "source": "Test.js",
+  "bindings": "bindings.json",
+  "controls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "repetitions": 3,
+  "materialize": [
+    "python3",
+    "scripts/materialize.py",
+    "--case",
+    "H23-C-10a944994bb12a49",
+    "--out",
+    "work/projects/H23-C-10a944994bb12a49"
+  ],
+  "runtimeEntry": "run(context, bindings)",
+  "requiredHost": "stage Ability",
+  "compiled": true,
+  "deviceExecuted": false,
+  "compilationKind": "included_in_group_HAP",
+  "compiledArtifacts": [
+    "H23-C-433b2bac3d549a6b-runner.hap"
+  ],
+  "securityValidationCompleted": false,
+  "deviceExecutionScope": null,
+  "deviceAttempts": []
+}

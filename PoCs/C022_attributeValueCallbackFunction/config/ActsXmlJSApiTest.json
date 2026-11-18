@@ -1,0 +1,37 @@
+{
+    "description": "Configuration for startup xml js api Tests",
+    "driver": {
+        "type": "OHJSUnitTest",
+        "test-timeout": "800000",
+        "shell-timeout": "800000",
+        "bundle-name": "com.example.xml",
+        "package-name": "com.example.xml"
+    },
+    "kits": [
+        {
+            "test-file-name": [
+                "ActsXmlJSApiTest.hap"
+            ],
+            "type": "AppInstallKit",
+            "cleanup-apps": true
+        },
+        {
+            "type": "ShellKit",
+            "run-command": [
+                "power-shell wakeup",
+                "power-shell setmode 602"
+            ]
+        },
+        {
+            "type": "PermissionKit",
+            "package-names": [
+                "com.example.xml"
+            ],
+            "permissions": [
+                [
+                    "ohos.permission.DISTRIBUTED_DATASYNC"
+                ]
+            ]
+        }
+    ]
+}

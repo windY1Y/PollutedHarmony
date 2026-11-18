@@ -1,0 +1,7 @@
+{
+  "key": "__CheckIsInBuilderNode__",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:__CheckIsInBuilderNode__;ppMode:proxy"
+}

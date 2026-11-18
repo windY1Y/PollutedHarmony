@@ -1,0 +1,7 @@
+{
+  "key": "onPop",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onPop;ppMode:proxy"
+}

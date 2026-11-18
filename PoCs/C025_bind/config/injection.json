@@ -1,0 +1,21 @@
+{
+  "key": "bind",
+  "mode": "proxy",
+  "path": "",
+  "injections": [
+    {
+      "mode": "object",
+      "path": [
+        "onClicked"
+      ]
+    },
+    {
+      "mode": "proxy",
+      "path": [
+        "onClicked",
+        "bind"
+      ]
+    }
+  ],
+  "testArgs": "ppSpec:%7B%22version%22%3A1%2C%22properties%22%3A%5B%7B%22mode%22%3A%22object%22%2C%22path%22%3A%5B%22onClicked%22%5D%7D%2C%7B%22mode%22%3A%22proxy%22%2C%22path%22%3A%5B%22onClicked%22%2C%22bind%22%5D%7D%5D%7D;ppSession:0c4343d44e922107f65b8b03"
+}

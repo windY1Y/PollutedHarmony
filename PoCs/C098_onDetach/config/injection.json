@@ -1,0 +1,7 @@
+{
+  "key": "onDetach",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onDetach;ppMode:proxy"
+}

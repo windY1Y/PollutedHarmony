@@ -1,0 +1,64 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H48-R1-cbc23776d2ee7653",
+  "card": "H48",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "rawfile": "ppv3-small.png",
+    "outputFile": "ppv720-packed.png",
+    "packingOptions": {
+      "format": "image/png",
+      "quality": 90
+    }
+  },
+  "values": {
+    "inj0": true
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 2,
+    "path": []
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "requested": [
+      "ohos.permission.DISTRIBUTED_DATASYNC"
+    ],
+    "actual_grants": null,
+    "note": "Bind exact caller, grants, and fixed service state before execution."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "executionContext": "ability_process"
+}

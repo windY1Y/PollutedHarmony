@@ -1,0 +1,99 @@
+{
+  "afterTimeoutMs": 5000,
+  "card": "H05",
+  "caseId": "H05-C-9ebdd35e142551ef",
+  "conditions": [
+    "B/P/CLEAN/PT have no own options.header; PT installs only Object.prototype.header",
+    "OWN_SHADOW installs an own options.header with X-PP-Shadow before prototype installation",
+    "The run-bound canary is carried only in the URL query and never shadows options.header",
+    "All groups use the same URL path, method, timeouts, HAP and fixture"
+  ],
+  "environment": {
+    "ACL": null,
+    "APL": null,
+    "HAP_hash": null,
+    "TokenID": null,
+    "UID": null,
+    "image_hashes": null,
+    "runtime_grants": null,
+    "sandbox": null,
+    "server_state": null,
+    "user": null
+  },
+  "fixtures": {
+    "requestOracle": {
+      "address": "10.98.36.180",
+      "evidenceRoot": "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation11/h05-request-oracle-20261022-r1",
+      "path": "/request-oracle",
+      "port": 19484
+    }
+  },
+  "group": "B",
+  "ordinary": {
+    "options": {
+      "connectTimeout": 5000,
+      "method": "POST",
+      "readTimeout": 5000
+    },
+    "url": "http://10.98.36.180:19484/request-oracle?x-pp-canary=PPV_H05_HEADER_9EBD-{runId}"
+  },
+  "permissions": {
+    "declared_api_contracts": [
+      "ohos.permission.INTERNET"
+    ],
+    "profile": "ordinary",
+    "requested": [
+      "ohos.permission.INTERNET"
+    ]
+  },
+  "receiverBinding": {
+    "argument": 1,
+    "kind": "argument",
+    "path": []
+  },
+  "repetition": 1,
+  "repetitions": 3,
+  "review": {
+    "callsiteAndOverload": true,
+    "environment": true,
+    "fixedArguments": true,
+    "injectionSemantics": true,
+    "oracle": true
+  },
+  "reviewEvidence": {
+    "callsiteAndOverload": "The exact bundled H05 requestInStream adapter passes options as arg[1].",
+    "environment": "Fresh process, install and exact live device identity per cell.",
+    "fixedArguments": "URL path, method, timeouts and endpoint are fixed; only the URL query canary suffix varies.",
+    "historicalExactInvocationVerified": false,
+    "injectionSemantics": "PT installs only the inherited header getter after clone/resolve; OWN_SHADOW supplies an own header object.",
+    "oracle": "The request oracle records the URL query canary and all request headers."
+  },
+  "runId": "UNBOUND",
+  "schema": "oh-pp-config-v1",
+  "scope": "continuation11 H05 header request-content oracle",
+  "shadowValue": {
+    "X-PP-Shadow": "PPV_H05_HEADER_OWN_SHADOW_9EBD"
+  },
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "target": {
+    "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+    "arg_path": "arg[1].header",
+    "configured_property": "header",
+    "inferred_property": "header",
+    "module": "net.http",
+    "observed_property": "header",
+    "source": "prototype"
+  },
+  "timeoutMs": 25000,
+  "values": {
+    "inj0": {
+      "X-PP-Injected": "PPV_H05_HEADER_INJECTED_9EBD"
+    }
+  }
+}

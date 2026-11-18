@@ -1,0 +1,7 @@
+{
+  "key": "jsProxy",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:jsProxy;ppMode:proxy"
+}

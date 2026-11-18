@@ -1,0 +1,7 @@
+{
+  "key": "attributeValueCallbackFunction",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:attributeValueCallbackFunction;ppMode:proxy"
+}

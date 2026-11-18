@@ -1,0 +1,7 @@
+{
+  "key": "onSurfaceChanged",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onSurfaceChanged;ppMode:proxy"
+}

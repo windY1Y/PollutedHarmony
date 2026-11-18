@@ -1,0 +1,7 @@
+{
+  "key": "controller",
+  "mode": "proxy",
+  "path": "getWebDebuggingAccess",
+  "injections": null,
+  "testArgs": "ppKey:controller;ppMode:proxy"
+}

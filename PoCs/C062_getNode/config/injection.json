@@ -1,0 +1,7 @@
+{
+  "key": "map_",
+  "mode": "proxy",
+  "path": "get.apply.getNode",
+  "injections": null,
+  "testArgs": "ppKey:map_;ppMode:proxy"
+}

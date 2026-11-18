@@ -1,0 +1,7 @@
+{
+  "key": "closeOptions",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_Text;ppMode:proxy"
+}

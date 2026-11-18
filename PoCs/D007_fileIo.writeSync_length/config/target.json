@@ -1,0 +1,5 @@
+{
+  "id": "D007",
+  "api": "fileIo.writeSync",
+  "property": "length"
+}

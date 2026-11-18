@@ -1,0 +1,5 @@
+{
+  "id": "D005",
+  "api": "fileIo.write",
+  "property": "length"
+}

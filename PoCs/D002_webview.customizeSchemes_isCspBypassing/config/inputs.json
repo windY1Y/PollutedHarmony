@@ -1,0 +1,428 @@
+[
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "CLEAN",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/plain.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "B",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18095/ok"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "CLEAN",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/inline-plain.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "CLEAN",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/csp.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "B",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18081/csp"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "P",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18081/csp"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "CLEAN",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18081/csp"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "PT",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18081/csp"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "OWN_SHADOW",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18081/csp"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "CLEAN",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/inline-csp.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "B",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true,
+        "isCspBypassing": false
+      },
+      "pageUrl": "http://10.98.36.180:18081/csp"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "OWN_SHADOW",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/csp.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "PT",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/csp.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "B",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/plain.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "P",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/plain.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "PT",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/plain.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "OWN_SHADOW",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/plain.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "P",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true,
+        "isCspBypassing": true
+      },
+      "pageUrl": "http://10.98.36.180:18081/csp"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "B",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/csp.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "P",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18089/csp.html"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "B",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "http://10.98.36.180:18095/blocked"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H17-C-dec1357ff54dcfaa",
+    "group": "B",
+    "key": "isCspBypassing",
+    "ordinaryInputs": {
+      "scheme": {
+        "schemeName": "ppv3",
+        "isSupportCORS": true,
+        "isSupportFetch": true,
+        "isStandard": true,
+        "isSecure": true
+      },
+      "pageUrl": "data:text/html,%3Cscript%3Ewindow.ppv3Executed=true;console.log('PPV3_CSP_EXECUTED')%3C/script%3E%3Cp%3EPC3%3C/p%3E"
+    },
+    "payloadDescription": {
+      "key": "isCspBypassing",
+      "value": true
+    }
+  },
+  {
+    "group": "B"
+  },
+  {
+    "group": "PT"
+  }
+]

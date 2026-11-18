@@ -1,0 +1,42 @@
+{
+ "caseId": "H17-C-dec1357ff54dcfaa",
+ "card": "H17",
+ "hapSha256": "",
+ "timeoutMs": 20000,
+ "afterTimeoutMs": 8000,
+ "ordinary": {
+  "scheme": {
+   "schemeName": "ppv3",
+   "isSupportCORS": true,
+   "isSupportFetch": true,
+   "isStandard": true,
+   "isSecure": true,
+   "isCspBypassing": false
+  },
+  "pageUrl": "http://10.98.36.180:18081/csp"
+ },
+ "fixtures": {},
+ "resources": [],
+ "values": {
+  "inj0": true
+ },
+ "injection": {
+  "key": "isCspBypassing",
+  "value": true
+ },
+ "shadow": false,
+ "environment": {
+  "HAP_hash": "f4e44c297bcc6b89657d8e5cf0418276c3a8ec5520efeefb9f13684ede3b2239",
+  "UID": 20010033,
+  "TokenID": 537007814,
+  "APL": "normal",
+  "ACL": [],
+  "runtime_grants": {
+   "ohos.permission.INTERNET": 0
+  },
+  "user": 100,
+  "isSystemApp": false,
+  "sandbox": "/data/app/el2/100/base/org.oh.ppv3.runner/haps/entry/files",
+  "guestBootId": "26617040-2975-4792-a47d-b28ad39ebf86"
+ }
+}

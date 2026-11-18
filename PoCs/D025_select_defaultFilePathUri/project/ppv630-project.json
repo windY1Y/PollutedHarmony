@@ -1,0 +1,25 @@
+{
+  "caseId": "H29-C-1b4befcb171c6ade",
+  "includedCaseIds": [
+    "H29-C-1b4befcb171c6ade",
+    "H29-C-cbb8d4d569c6e3db",
+    "H29-C-52ba990f664cdfd2",
+    "H29-C-278d5a8f5605d11c",
+    "H29-C-0181959ea56dd131",
+    "H29-C-268ec01a20808520",
+    "H29-C-2ff6610d09a60322"
+  ],
+  "card": "H29",
+  "adapter": "picker",
+  "role": "runner",
+  "bundleName": "org.oh.ppv3.runner",
+  "compiled": false,
+  "deviceExecuted": false,
+  "bindingReviewRequired": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  }
+}

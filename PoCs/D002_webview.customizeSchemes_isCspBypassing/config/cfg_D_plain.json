@@ -1,0 +1,42 @@
+{
+ "caseId": "H17-C-dec1357ff54dcfaa",
+ "card": "H17",
+ "hapSha256": "",
+ "timeoutMs": 90000,
+ "afterTimeoutMs": 95000,
+ "ordinary": {
+  "scheme": {
+   "schemeName": "ppv3",
+   "isSupportCORS": true,
+   "isSupportFetch": true,
+   "isStandard": true,
+   "isSecure": true
+  },
+  "pageUrl": "http://10.98.36.180:18089/plain.html"
+ },
+ "fixtures": {},
+ "resources": [],
+ "values": {
+  "inj0": true
+ },
+ "injection": {
+  "key": "isCspBypassing",
+  "value": true
+ },
+ "shadow": false,
+ "environment": {
+  "ACL": "PPV630_H29-C-52ba990f664cdfd2_environment.ACL",
+  "APL": "normal",
+  "HAP_hash": null,
+  "TokenID": 537644708,
+  "UID": 20010039,
+  "guestBootId": "1c63052e-fc53-4831-9898-23493f4adf3a",
+  "user": 100,
+  "runtime_grants": "PPV630_H29-C-52ba990f664cdfd2_environment.runtime_grants",
+  "sandbox": "PPV630_H29-C-52ba990f664cdfd2_environment.sandbox",
+  "server_state": "PPV630_H29-C-52ba990f664cdfd2_environment.server_state"
+ },
+ "cellDeadlineSec": 150,
+ "arm": "D",
+ "group": "CLEAN"
+}

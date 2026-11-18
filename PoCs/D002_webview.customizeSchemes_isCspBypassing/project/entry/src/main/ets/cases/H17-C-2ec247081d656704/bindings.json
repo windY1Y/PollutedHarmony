@@ -1,0 +1,100 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H17-C-2ec247081d656704",
+  "card": "H17",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "scheme": {
+      "schemeName": "ppv3"
+    },
+    "pageUrl": "http://10.98.36.180:18081/csp"
+  },
+  "values": {
+    "inj0": false
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 0,
+    "path": [
+      "2"
+    ]
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [
+      "ohos.permission.INTERNET",
+      "ohos.permission.LOCATION"
+    ],
+    "requested": [],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {},
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H17-C-2ec247081d656704.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "boolean",
+      "declarations": [
+        {
+          "field": "isLocal",
+          "snapshot": "evidence/sources/cee5d6b45e7eafeb25106341b187344946fda8c5393a8fafd0213cc8cba9e0d4.ts",
+          "sha256": "cee5d6b45e7eafeb25106341b187344946fda8c5393a8fafd0213cc8cba9e0d4",
+          "line": 612,
+          "declaration": "isLocal?: boolean;"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

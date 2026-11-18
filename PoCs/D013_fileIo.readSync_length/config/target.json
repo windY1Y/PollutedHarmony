@@ -1,0 +1,5 @@
+{
+  "id": "D013",
+  "api": "fileIo.readSync",
+  "property": "length"
+}

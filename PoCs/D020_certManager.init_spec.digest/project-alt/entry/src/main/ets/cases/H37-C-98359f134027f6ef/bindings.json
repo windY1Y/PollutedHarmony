@@ -1,0 +1,114 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H37-C-98359f134027f6ef",
+  "card": "H37",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "spec": {
+      "purpose": 4
+    },
+    "message": [
+      80,
+      80,
+      86,
+      54,
+      51,
+      48
+    ],
+    "storeOptions": {}
+  },
+  "values": {
+    "inj0": "1"
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 1,
+    "path": []
+  },
+  "fixtures": {
+    "rawFiles": [],
+    "authUri": null
+  },
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [
+      "ohos.permission.ACCESS_CERT_MANAGER",
+      "ohos.permission.ACCESS_CERT_MANAGER_INTERNAL",
+      "ohos.permission.ACCESS_ENTERPRISE_USER_TRUSTED_CERT",
+      "ohos.permission.GET_BUNDLE_INFO"
+    ],
+    "requested": [
+      "ohos.permission.ACCESS_CERT_MANAGER"
+    ],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants.",
+    "requestBasis": "Saved certManager declaration and current permission definition: normal/system_grant."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {},
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H37-C-98359f134027f6ef.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "string",
+      "declarations": [
+        {
+          "field": "padding",
+          "snapshot": "evidence/sources/887c88796b2a1b67dd974d68e0be197ad064873a5a6c6a985200579726bada43.ts",
+          "sha256": "887c88796b2a1b67dd974d68e0be197ad064873a5a6c6a985200579726bada43",
+          "line": 592,
+          "declaration": "padding?: CmKeyPadding;"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

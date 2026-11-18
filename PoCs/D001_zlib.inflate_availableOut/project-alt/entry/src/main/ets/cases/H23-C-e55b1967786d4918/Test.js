@@ -1,0 +1,35 @@
+// H23-C-e55b1967786d4918: zlib / Zip.inflate / totalIn
+// Candidate 04:2a3a7ed9b6b56666417178e3ade2fd54. Full recorded injection paths are immutable below.
+import { prepare } from '../../adapters/zlib.js';
+import { runTrial } from '../../runtime/trial.js';
+export const spec = {
+  "caseId": "H23-C-e55b1967786d4918",
+  "card": "H23",
+  "candidateId": "2a3a7ed9b6b56666417178e3ade2fd54",
+  "dataset": "04",
+  "target": {
+    "module": "zlib",
+    "api": "Zip.inflate",
+    "observed_property": "totalIn",
+    "configured_property": "totalIn",
+    "inferred_property": "totalIn",
+    "arg_path": "arg[0].totalIn",
+    "source": "prototype"
+  },
+  "injections": [
+    {
+      "path": [
+        "totalIn"
+      ],
+      "mode": "numeric",
+      "id": "inj0",
+      "role": "target"
+    }
+  ],
+  "executionContext": "ability_process",
+  "internalReceiver": false,
+  "sourceBinding": "evidence/H23-C-e55b1967786d4918/context.json",
+  "apiAdapter": "zlib"
+};
+export function run(context, bindings) { return runTrial(spec, prepare, context, bindings); }
+export { prepare };

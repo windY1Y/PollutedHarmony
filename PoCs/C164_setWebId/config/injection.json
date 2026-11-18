@@ -1,0 +1,7 @@
+{
+  "key": "setWebId",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:setWebId;ppMode:proxy"
+}

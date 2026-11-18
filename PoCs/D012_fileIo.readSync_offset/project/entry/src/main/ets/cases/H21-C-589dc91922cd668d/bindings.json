@@ -1,0 +1,123 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H21-C-589dc91922cd668d",
+  "card": "H21",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "fileName": "ppv630-file.txt",
+    "contents": "PPV630_A_0123456789_PP V630_B",
+    "bufferBytes": 64,
+    "writeData": "PPV630_WRITE",
+    "options": {},
+    "randomAccessOptions": {}
+  },
+  "values": {
+    "inj0": {
+      "$proxy": {
+        "kind": "legacy-callable",
+        "coercion": "8",
+        "get": {},
+        "maxDepth": 16
+      }
+    }
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 1,
+    "path": []
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [
+      "ohos.permission.DISTRIBUTED_DATASYNC"
+    ],
+    "requested": [],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {
+      "inj0": {
+        "requiredRepresentation": {
+          "$proxy": {
+            "target": {},
+            "get": {}
+          }
+        },
+        "status": "UNBOUND: match original proxy traps from injector evidence; empty recipe is not a validated payload"
+      }
+    },
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H21-C-589dc91922cd668d.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "proxy",
+      "declarations": [
+        {
+          "field": "length",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts",
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "line": 11507,
+          "declaration": "length?: number;"
+        },
+        {
+          "field": "length",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts",
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "line": 11633,
+          "declaration": "length?: number;"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

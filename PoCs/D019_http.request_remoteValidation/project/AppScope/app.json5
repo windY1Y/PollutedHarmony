@@ -1,0 +1,10 @@
+{
+  "app": {
+    "bundleName": "org.oh.ppv3.runner",
+    "vendor": "PPV3 laboratory",
+    "versionCode": 1,
+    "versionName": "1.0.0",
+    "icon": "$media:app_icon",
+    "label": "$string:app_name"
+  }
+}

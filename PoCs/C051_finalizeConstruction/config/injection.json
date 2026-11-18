@@ -1,0 +1,7 @@
+{
+  "key": "finalizeConstruction",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:finalizeConstruction;ppMode:proxy"
+}

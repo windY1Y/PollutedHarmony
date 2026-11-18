@@ -1,0 +1,7 @@
+{
+  "key": "indicatorBuilder",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:indicatorBuilder;ppMode:proxy"
+}

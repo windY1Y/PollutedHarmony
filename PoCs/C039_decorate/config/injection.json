@@ -1,0 +1,7 @@
+{
+  "key": "decorate",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:decorate;ppMode:proxy"
+}

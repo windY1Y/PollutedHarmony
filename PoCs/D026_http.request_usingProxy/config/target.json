@@ -1,0 +1,5 @@
+{
+  "id": "D026",
+  "api": "http.request",
+  "property": "usingProxy"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "tagValueCallbackFunction",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:tagValueCallbackFunction;ppMode:proxy"
+}

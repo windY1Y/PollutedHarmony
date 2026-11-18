@@ -1,0 +1,5 @@
+{
+  "id": "D021",
+  "api": "http.request",
+  "property": "dnsServers"
+}

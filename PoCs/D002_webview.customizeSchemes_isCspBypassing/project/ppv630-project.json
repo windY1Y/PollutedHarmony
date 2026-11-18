@@ -1,0 +1,22 @@
+{
+  "caseId": "H17-C-940f42c2768ac910",
+  "includedCaseIds": [
+    "H17-C-940f42c2768ac910",
+    "H17-C-2ec247081d656704",
+    "H17-C-6cee768565bccf9e",
+    "H17-C-065acb5e71bce0b6"
+  ],
+  "card": "H17",
+  "adapter": "web",
+  "role": "runner",
+  "bundleName": "org.oh.ppv3.runner",
+  "compiled": false,
+  "deviceExecuted": false,
+  "bindingReviewRequired": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  }
+}

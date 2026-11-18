@@ -1,0 +1,76 @@
+{
+  "schema": "round5-h01-formal-config-v1",
+  "card": "H01",
+  "caseId": "H01-C-55fbc3e288aaaf91",
+  "logicalKey": "net.http|OHOS_NET_HTTP_HttpRequest.request|arg[1].remoteValidation|remoteValidation",
+  "api": "OHOS_NET_HTTP_HttpRequest.request",
+  "argPath": "arg[1].remoteValidation",
+  "property": "remoteValidation",
+  "runnerProtocol": "ppv630Config",
+  "materializationHash": "31ff0742a90971b188efd52f71b4c0e87fb38ff5855e71446352d669eb1ce4af",
+  "experimentAuthorization": "granted",
+  "groupsAllowed": ["B", "P", "PT", "CLEAN", "OWN_SHADOW"],
+  "group": "B",
+  "repetition": 1,
+  "ordinary": {
+    "url": "https://10.98.36.180:18443/tls",
+    "options": {
+      "header": {
+        "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017"
+      },
+      "connectTimeout": 5000
+    }
+  },
+  "values": {
+    "inj0": "skip"
+  },
+  "shadowValue": "system",
+  "injection": {
+    "key": "remoteValidation",
+    "value": "skip"
+  },
+  "shadow": "system",
+  "variantPolicy": {
+    "kind": "pure_value_variant",
+    "baseline": "system_default_no_own_property",
+    "target": "skip",
+    "oneTargetValueChanged": true,
+    "ordinaryArgumentsFixedExceptFormalCanary": true,
+    "priorLogTypeError": false,
+    "typeAdjustment": null
+  },
+  "fixtures": {
+    "rawFiles": [],
+    "server": "https://10.98.36.180:18443/tls",
+    "serverStateValidated": true,
+    "rawFilesValidated": true,
+    "runBoundCanaryRequired": true,
+    "formalCanaryPrefix": "H01-C-55fbc3e288aaaf91-formal-20261017"
+  },
+  "environment": {},
+  "permissions": {
+    "requested": ["ohos.permission.INTERNET"],
+    "actual_grants": {
+      "ohos.permission.INTERNET": 0,
+      "source": "fresh installation measurement bundleInfo.json reqPermissionStates"
+    }
+  },
+  "review": {
+    "callsiteAndOverload": true,
+    "injectionSemantics": true,
+    "fixedArguments": true,
+    "environment": true,
+    "oracle": true
+  },
+  "reviewScope": {
+    "reviewFlagsMeaning": "execution gate for the authorized single-case matrix",
+    "oracleFlagMeaning": "bounded fixture and validation630 decoder are ready; final protected security oracle is evaluated only after raw matrix",
+    "formalSecurityReview": "pending_matrix"
+  },
+  "supportedControls": ["B", "P", "PT", "CLEAN", "OWN_SHADOW"],
+  "deviceExecution": true,
+  "freshEvidence": true,
+  "historicalEvidenceNotFresh": true,
+  "executionIntent": "formal_single_case_matrix",
+  "formalMatrixAttempts": []
+}

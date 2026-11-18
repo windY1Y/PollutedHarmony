@@ -1,0 +1,7 @@
+{
+  "key": "getOwnPropertyDescriptor",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:getOwnPropertyDescriptor;ppMode:proxy"
+}

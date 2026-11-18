@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "XComponent",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nativefunc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nativefunc-Release-07a10af5ea6d9e0fd0a4.json",
+					"name" : "nativefunc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nativerender::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nativerender-Release-8d1a949c2208fb4f633e.json",
+					"name" : "nativerender",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/x86_64",
+		"source" : "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,124 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "card": "H04",
+  "caseId": "H04-C-bf40c59ab154366e",
+  "target": {
+    "module": "net.http",
+    "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+    "observed_property": "usingProxy",
+    "configured_property": "usingProxy",
+    "inferred_property": "usingProxy",
+    "arg_path": "arg[1].usingProxy",
+    "source": "prototype"
+  },
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 25000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "url": "http://10.98.36.180:19481/canary",
+    "options": {
+      "header": {
+        "X-PP-Canary": "PPV630_H04_BF40_HTTP_CANARY",
+        "Content-Type": "application/json"
+      },
+      "connectTimeout": 5000,
+      "readTimeout": 5000
+    }
+  },
+  "values": {
+    "inj0": {
+      "host": "10.98.36.180",
+      "port": 19480,
+      "exclusionList": []
+    }
+  },
+  "shadowValue": false,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 1,
+    "path": []
+  },
+  "fixtures": {
+    "rawFiles": [],
+    "proxy": {
+      "address": "10.98.36.180",
+      "port": 19480,
+      "protocol": "http-forward-proxy",
+      "evidenceRoot": "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation11/h04-http-proxy-20261022-r1"
+    },
+    "target": {
+      "address": "10.98.36.180",
+      "port": 19481,
+      "path": "/canary",
+      "marker": "PPV630_H04_HTTP_TARGET_19481"
+    }
+  },
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [
+      "ohos.permission.GET_NETWORK_INFO",
+      "ohos.permission.INTERNET"
+    ],
+    "requested": [
+      "ohos.permission.INTERNET"
+    ],
+    "actual_grants": null,
+    "note": "Manifest request is not proof of a grant. The runner records current installation identity and configured environment independently.",
+    "requestBasis": "Original H04 HTTP API fixture and the exact validation630 case."
+  },
+  "review": {
+    "callsiteAndOverload": true,
+    "injectionSemantics": true,
+    "fixedArguments": true,
+    "environment": true,
+    "oracle": true
+  },
+  "reviewEvidence": {
+    "callsiteAndOverload": "The shared signed HAP packages the exact validation630 H04-C-bf40 requestInStream case; the HTTP adapter uses the stream branch.",
+    "injectionSemantics": "Only Object.prototype.usingProxy changes. B/P/CLEAN install no target descriptor. OWN_SHADOW installs own false on the options receiver and then installs the prototype descriptor.",
+    "fixedArguments": "Every group uses the same target URL, headers except the run-bound canary suffix, proxy endpoint, timeouts and device.",
+    "environment": "Fresh HAP installation and fresh process per cell; device probe records boot ID, UID, Token ID, APL and HAP hash.",
+    "oracle": "A continuation-owned HTTP proxy and target independently record exact-canary route evidence. Getter reads or API success alone are not harm.",
+    "historicalExactInvocationVerified": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "saved validation630 case, bindings and adapter source"
+  },
+  "proposedFixtureValuesNotValidated": false,
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "valueBindingNotes": {
+    "dynamicReferences": "No dynamic references remain in ordinary.",
+    "proxyRecipes": {},
+    "ordinaryValues": "Fixed target URL, exact run-bound canary and bounded HTTP timeouts only."
+  },
+  "experimentScope": "continuation11 fresh requestInStream usingProxy route-rewrite validation",
+  "bindingRevision": "continuation11-http-proxy-v1",
+  "bindingLimit": "This validates a laboratory route rewrite, not a historical product callsite.",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ]
+}

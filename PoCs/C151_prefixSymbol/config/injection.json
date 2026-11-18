@@ -1,0 +1,7 @@
+{
+  "key": "prefixSymbol",
+  "mode": "string",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:scrollable;ppMode:string"
+}

@@ -1,0 +1,5 @@
+{
+  "id": "D001",
+  "api": "zlib.inflate",
+  "property": "availableOut"
+}

@@ -1,0 +1,136 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H09-C-aa39a561c813aee4",
+  "card": "H09",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "fileName": "ppv630-request.txt",
+    "bindSaveAs": true,
+    "seedExisting": true,
+    "seed": "PPV630_PREEXISTING",
+    "options": {
+      "url": "http://10.98.36.180:18081/download",
+      "action": 0,
+      "mode": 0,
+      "title": "PPV630"
+    }
+  },
+  "values": {
+    "inj0": "PPV630_REQUEST"
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 1,
+    "path": []
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [
+      "ohos.permission.INTERNET",
+      "ohos.permission.PROTECT_SCREEN_LOCK_DATA",
+      "ohos.permission.READ_MEDIA",
+      "ohos.permission.WRITE_MEDIA"
+    ],
+    "requested": [
+      "ohos.permission.INTERNET"
+    ],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants.",
+    "requestBasis": "Original network API fixtures and saved API contract; actual grant must be measured after installation."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {},
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H09-C-aa39a561c813aee4.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "string",
+      "declarations": [
+        {
+          "field": "headers",
+          "snapshot": "evidence/sources/8ecc44c0648eef8b478527ff07813fb9e01b8428e4401a0e9c53ac6ee8ff14c2.ts",
+          "sha256": "8ecc44c0648eef8b478527ff07813fb9e01b8428e4401a0e9c53ac6ee8ff14c2",
+          "line": 3205,
+          "declaration": "headers?: object;"
+        },
+        {
+          "field": "headers",
+          "snapshot": "evidence/sources/8ecc44c0648eef8b478527ff07813fb9e01b8428e4401a0e9c53ac6ee8ff14c2.ts",
+          "sha256": "8ecc44c0648eef8b478527ff07813fb9e01b8428e4401a0e9c53ac6ee8ff14c2",
+          "line": 4638,
+          "declaration": "readonly headers: Map<string, Array<string>>,"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "fixturePreparation": {
+    "labRawFiles": [
+      {
+        "id": "labCaPath",
+        "rawfile": "ppv3-ca.crt",
+        "sandboxName": "ppv630-ca.crt"
+      },
+      {
+        "id": "labClientCertPath",
+        "rawfile": "ppv3-client.crt",
+        "sandboxName": "ppv630-client.crt"
+      },
+      {
+        "id": "labClientKeyPath",
+        "rawfile": "ppv3-client.key",
+        "sandboxName": "ppv630-client.key"
+      }
+    ],
+    "canaryUpload": true
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

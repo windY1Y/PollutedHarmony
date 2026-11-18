@@ -1,0 +1,25 @@
+{
+  "caseId": "H48-R1-cbc23776d2ee7653",
+  "source": "Test.js",
+  "bindings": "bindings.json",
+  "controls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "repetitions": 3,
+  "materialize": [
+    "python3",
+    "scripts/materialize.py",
+    "--case",
+    "H48-R1-cbc23776d2ee7653",
+    "--out",
+    "work/projects/H48-R1-cbc23776d2ee7653"
+  ],
+  "runtimeEntry": "run(context, bindings)",
+  "requiredHost": "stage Ability",
+  "compiled": false,
+  "deviceExecuted": false,
+  "securityValidationCompleted": false
+}

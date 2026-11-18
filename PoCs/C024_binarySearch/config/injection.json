@@ -1,0 +1,21 @@
+{
+  "key": "binarySearch",
+  "mode": "proxy",
+  "path": "",
+  "injections": [
+    {
+      "mode": "array",
+      "path": [
+        "components"
+      ]
+    },
+    {
+      "mode": "proxy",
+      "path": [
+        "components",
+        "binarySearch"
+      ]
+    }
+  ],
+  "testArgs": "ppSpec:%7B%22version%22%3A1%2C%22properties%22%3A%5B%7B%22mode%22%3A%22array%22%2C%22path%22%3A%5B%22components%22%5D%7D%2C%7B%22mode%22%3A%22proxy%22%2C%22path%22%3A%5B%22components%22%2C%22binarySearch%22%5D%7D%5D%7D;ppSession:6ef5d3c524eb08ff12289f67"
+}

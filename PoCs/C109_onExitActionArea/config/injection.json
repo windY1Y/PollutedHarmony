@@ -1,0 +1,7 @@
+{
+  "key": "onExitActionArea",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onExitActionArea;ppMode:proxy"
+}

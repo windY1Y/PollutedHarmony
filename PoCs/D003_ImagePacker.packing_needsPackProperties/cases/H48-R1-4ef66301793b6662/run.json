@@ -1,0 +1,32 @@
+{
+  "caseId": "H48-R1-4ef66301793b6662",
+  "source": "Test.js",
+  "bindings": "bindings.json",
+  "controls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "repetitions": 3,
+  "materialize": [
+    "python3",
+    "scripts/materialize.py",
+    "--case",
+    "H48-R1-4ef66301793b6662",
+    "--out",
+    "work/projects/H48-R1-4ef66301793b6662"
+  ],
+  "runtimeEntry": "run(context, bindings)",
+  "requiredHost": "stage Ability",
+  "compiled": true,
+  "deviceExecuted": false,
+  "securityValidationCompleted": false,
+  "compiledArtifacts": [
+    "work/projects/H48-R1-4ef66301793b6662/entry/build/default/outputs/default/entry-default-unsigned.hap"
+  ],
+  "buildProject": "work/projects/H48-R1-4ef66301793b6662",
+  "signed": true,
+  "signedArtifact": "work/signing/H48-R1-4ef66301793b6662-runner-normal-67efd6b031af/artifacts/H48-R1-4ef66301793b6662-runner-normal-signed.hap",
+  "signedSha256": "c43a1aa03dcf2f736ec47055b89f5819e91b6299eb37a66a0ecaa55a474ec951"
+}

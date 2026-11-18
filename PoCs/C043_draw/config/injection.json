@@ -1,0 +1,7 @@
+{
+  "key": "draw",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:draw;ppMode:proxy"
+}

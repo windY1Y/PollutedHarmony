@@ -1,0 +1,141 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H23-C-f47cec4ce09a9d27",
+  "card": "H23",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "input": [
+      120,
+      156,
+      11,
+      8,
+      8,
+      51,
+      51,
+      54,
+      136,
+      119,
+      118,
+      244,
+      115,
+      12,
+      138,
+      4,
+      0,
+      25,
+      94,
+      3,
+      173
+    ],
+    "outputBytes": 256,
+    "stream": {
+      "nextIn": {
+        "$resource": "input"
+      },
+      "nextOut": {
+        "$resource": "output"
+      },
+      "availableIn": 21,
+      "availableOut": 256
+    },
+    "header": {},
+    "level": 1,
+    "flush": 4,
+    "method": 8,
+    "windowBits": 15,
+    "memLevel": 8,
+    "strategy": 0,
+    "check": 1,
+    "bits": 0,
+    "value": 0,
+    "goodLength": 4,
+    "maxLazy": 4,
+    "niceLength": 16,
+    "maxChain": 16
+  },
+  "values": {
+    "inj0": 0
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 0,
+    "path": []
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [
+      "ohos.permission.INTERNET"
+    ],
+    "requested": [],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {},
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H23-C-f47cec4ce09a9d27.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "numeric",
+      "declarations": [
+        {
+          "field": "totalOut",
+          "snapshot": "evidence/sources/848ee3b757a96d7b0e7df265c9494dd50a573207a10c8a51d8e0f3c882d9d456.ts",
+          "sha256": "848ee3b757a96d7b0e7df265c9494dd50a573207a10c8a51d8e0f3c882d9d456",
+          "line": 649,
+          "declaration": "totalOut?: number;"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

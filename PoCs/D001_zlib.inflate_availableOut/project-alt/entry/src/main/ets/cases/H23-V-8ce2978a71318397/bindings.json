@@ -1,0 +1,84 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H23-V-8ce2978a71318397",
+  "card": "H23",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "input": "PPV630_CANARY",
+    "outputBytes": 256,
+    "stream": {
+      "nextIn": {
+        "$resource": "input"
+      },
+      "nextOut": {
+        "$resource": "output"
+      },
+      "availableIn": 13,
+      "availableOut": 256
+    },
+    "header": {},
+    "level": 1,
+    "flush": 4,
+    "method": 8,
+    "windowBits": 15,
+    "memLevel": 8,
+    "strategy": 0,
+    "check": 1,
+    "bits": 0,
+    "value": 0,
+    "goodLength": 4,
+    "maxLazy": 4,
+    "niceLength": 16,
+    "maxChain": 16
+  },
+  "values": {
+    "inj0": 1
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 1,
+    "path": []
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "requested": [
+      "ohos.permission.INTERNET"
+    ],
+    "actual_grants": null,
+    "note": "Bind exact caller, grants, and fixed service state before execution."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "executionContext": "ability_process"
+}

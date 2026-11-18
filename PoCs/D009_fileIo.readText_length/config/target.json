@@ -1,0 +1,5 @@
+{
+  "id": "D009",
+  "api": "fileIo.readText",
+  "property": "length"
+}

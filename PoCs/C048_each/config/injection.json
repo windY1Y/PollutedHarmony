@@ -1,0 +1,7 @@
+{
+  "key": "each",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:each;ppMode:proxy"
+}

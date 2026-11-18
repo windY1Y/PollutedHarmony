@@ -1,0 +1,134 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H03-C-fad6af43f6017208",
+  "card": "H03",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "bind": {
+      "address": "0.0.0.0",
+      "port": 0,
+      "family": 1
+    },
+    "options": {
+      "address": {
+        "address": "10.98.36.180",
+        "port": 18444,
+        "family": 1
+      },
+      "secureOptions": {
+        "ca": [
+          "-----BEGIN CERTIFICATE-----\nMIIDDTCCAfWgAwIBAgIUBvX6r5VEfSiw2e6FvNR06XFDZ4EwDQYJKoZIhvcNAQEL\nBQAwFjEUMBIGA1UEAwwLUFBWMy1MQUItQ0EwHhcNMjYxMDEzMTA0NzQ2WhcNMjYx\nMTEyMTA0NzQ2WjAWMRQwEgYDVQQDDAtQUFYzLUxBQi1DQTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAM+sOFfB4FnK5gXx+XXHmXyfp8NS0p0uEnFJDooW\nMch+7/x7ksXtnJJQV97dKd2gMKrGJHazNLQI+kamMDcI72NP20nkKUD2o7XULzAl\nps1tEt+DAOg158tx5u5hLbX3MbLXcryLdR7RmsYLJHqIGZBG2jGQsraFrgYtu+yQ\nZbZ4QbSxBp4Ir4Os5FSaGKO5hXtwoWT+2aqco0gt3FWIWvgupQTfGA+5ogGvCxp/\nhR9R5KbF6biJ3FfkAPWB4YLPgE7dHWhwtutY0JpVRFqbbQ2TpA+Eee+SbpbOdzFR\nZ8S8SlQ7CSbwFliVRFa2b5PPnih3w/ivtDRT88/x+6lQptECAwEAAaNTMFEwHQYD\nVR0OBBYEFH9FC9LPKZoDsablYfAcJvqNlkM4MB8GA1UdIwQYMBaAFH9FC9LPKZoD\nsablYfAcJvqNlkM4MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB\nAEDxqbozql0lPqll4h3GFmL3666SOG945cd4yXnhto44srm1iI0euBVyrEIMHnI7\nEMNOFOCfoZR2leI4DPj48bzfv7GsRTSqq9N+1o0UNgeLr43CrG8htCBkMdfi28uQ\n8NTIulzdqkSYs+awQKoC4pOBIeTI2ER2s0PYybIjEBRQ2FVJocZI6xuE9EA0pkfe\n6taaV0yhYCuX9t0QWCWLueretDydx4hx6n4+AHS2dIKlvfrDWFcD3fT4Ir8q9wTb\ncASDA3MKaD0pkPh8+EiOaxiQWwzJ85Xmy8kNvwAshisiYC98in29bdU35WrxCEX3\ngQDZDF7fP7fP/4V8yY0ajKk=\n-----END CERTIFICATE-----\n"
+        ]
+      }
+    },
+    "message": "PPV630"
+  },
+  "values": {
+    "inj0": "true"
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 0,
+    "path": [
+      "secureOptions"
+    ]
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [],
+    "requested": [
+      "ohos.permission.INTERNET"
+    ],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants.",
+    "requestBasis": "Original network API fixtures and saved API contract; actual grant must be measured after installation."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {},
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H03-C-fad6af43f6017208.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "string",
+      "declarations": [
+        {
+          "field": "isBidirectionalAuthentication",
+          "snapshot": "evidence/sources/5fa47f66d62cccc3c50cf33c10ea02fc53cc2cfc140e5166a5382462c1f861af.ts",
+          "sha256": "5fa47f66d62cccc3c50cf33c10ea02fc53cc2cfc140e5166a5382462c1f861af",
+          "line": 3818,
+          "declaration": "isBidirectionalAuthentication?: boolean;"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "fixturePreparation": {
+    "labRawFiles": [
+      {
+        "id": "labCaPath",
+        "rawfile": "ppv3-ca.crt",
+        "sandboxName": "ppv630-ca.crt"
+      },
+      {
+        "id": "labClientCertPath",
+        "rawfile": "ppv3-client.crt",
+        "sandboxName": "ppv630-client.crt"
+      },
+      {
+        "id": "labClientKeyPath",
+        "rawfile": "ppv3-client.key",
+        "sandboxName": "ppv630-client.key"
+      }
+    ],
+    "canaryUpload": true
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

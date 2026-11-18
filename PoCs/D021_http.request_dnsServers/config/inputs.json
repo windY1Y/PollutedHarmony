@@ -1,0 +1,202 @@
+[
+  {
+    "caseId": "H04-C-577794fcfe749708",
+    "group": "B",
+    "key": "dnsServers",
+    "ordinaryInputs": {
+      "url": "http://ppv3-dns-canary.test:18181/canary",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_HTTP_CANARY"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "dnsServers",
+      "value": [
+        "10.98.36.180"
+      ]
+    }
+  },
+  {
+    "caseId": "H04-C-577794fcfe749708",
+    "group": "PT",
+    "key": "dnsServers",
+    "ordinaryInputs": {
+      "url": "http://ppv3-dns-canary.test:18181/canary",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_HTTP_CANARY"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "dnsServers",
+      "value": [
+        "10.98.36.180"
+      ]
+    }
+  },
+  {
+    "caseId": "H04-C-577794fcfe749708",
+    "group": "P",
+    "key": "dnsServers",
+    "ordinaryInputs": {
+      "url": "http://ppv3-dns-canary.test:18181/canary",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_HTTP_CANARY"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "dnsServers",
+      "value": [
+        "10.98.36.180"
+      ]
+    }
+  },
+  {
+    "caseId": "H04-C-577794fcfe749708",
+    "group": "CLEAN",
+    "key": "dnsServers",
+    "ordinaryInputs": {
+      "url": "http://ppv3-dns-canary.test:18181/canary",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_HTTP_CANARY"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "dnsServers",
+      "value": [
+        "10.98.36.180"
+      ]
+    }
+  },
+  {
+    "caseId": "H04-C-577794fcfe749708",
+    "group": "OWN_SHADOW",
+    "key": "dnsServers",
+    "ordinaryInputs": {
+      "url": "http://ppv3-dns-canary.test:18181/canary",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_HTTP_CANARY"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "dnsServers",
+      "value": [
+        "10.98.36.180"
+      ]
+    }
+  },
+  {
+    "caseId": "H04-C-0e0c05d7b94c891f",
+    "group": "B",
+    "key": "dnsServers",
+    "ordinaryInputs": {
+      "url": "http://ppv3-dns-canary.test:18181/canary",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_HTTP_CANARY"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "dnsServers",
+      "value": [
+        "10.98.36.180"
+      ]
+    }
+  },
+  {
+    "caseId": "H04-C-0e0c05d7b94c891f",
+    "group": "P",
+    "key": "dnsServers",
+    "ordinaryInputs": {
+      "url": "http://ppv3-dns-canary.test:18181/canary",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_HTTP_CANARY"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "dnsServers",
+      "value": [
+        "10.98.36.180"
+      ]
+    }
+  },
+  {
+    "caseId": "H04-C-0e0c05d7b94c891f",
+    "group": "PT",
+    "key": "dnsServers",
+    "ordinaryInputs": {
+      "url": "http://ppv3-dns-canary.test:18181/canary",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_HTTP_CANARY"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "dnsServers",
+      "value": [
+        "10.98.36.180"
+      ]
+    }
+  },
+  {
+    "caseId": "H04-C-0e0c05d7b94c891f",
+    "group": "CLEAN",
+    "key": "dnsServers",
+    "ordinaryInputs": {
+      "url": "http://ppv3-dns-canary.test:18181/canary",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_HTTP_CANARY"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "dnsServers",
+      "value": [
+        "10.98.36.180"
+      ]
+    }
+  },
+  {
+    "caseId": "H04-C-0e0c05d7b94c891f",
+    "group": "OWN_SHADOW",
+    "key": "dnsServers",
+    "ordinaryInputs": {
+      "url": "http://ppv3-dns-canary.test:18181/canary",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_HTTP_CANARY"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "dnsServers",
+      "value": [
+        "10.98.36.180"
+      ]
+    }
+  }
+]

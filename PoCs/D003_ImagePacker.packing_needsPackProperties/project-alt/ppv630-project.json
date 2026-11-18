@@ -1,0 +1,19 @@
+{
+  "caseId": "H48-R1-cbc23776d2ee7653",
+  "includedCaseIds": [
+    "H48-R1-cbc23776d2ee7653"
+  ],
+  "card": "H48",
+  "adapter": "image_file_r1",
+  "role": "runner",
+  "bundleName": "org.oh.ppv3.runner",
+  "compiled": false,
+  "deviceExecuted": false,
+  "bindingReviewRequired": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  }
+}

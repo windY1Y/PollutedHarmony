@@ -1,0 +1,72 @@
+[
+  {
+    "caseId": "H02-C-ea83121caee5546b",
+    "group": "PT",
+    "key": "skipServerCertVerification",
+    "ordinaryInputs": {
+      "message": "PPV8_H02_SKIPCERT_CONT8",
+      "options": {},
+      "url": "wss://10.98.36.180:18443/ws"
+    },
+    "payloadDescription": {
+      "key": "skipServerCertVerification",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H02-C-ea83121caee5546b",
+    "group": "CLEAN",
+    "key": "skipServerCertVerification",
+    "ordinaryInputs": {
+      "message": "PPV8_H02_SKIPCERT_CONT8",
+      "options": {},
+      "url": "wss://10.98.36.180:18443/ws"
+    },
+    "payloadDescription": {
+      "key": "skipServerCertVerification",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H02-C-ea83121caee5546b",
+    "group": "P",
+    "key": "skipServerCertVerification",
+    "ordinaryInputs": {
+      "message": "PPV8_H02_SKIPCERT_CONT8",
+      "options": {},
+      "url": "wss://10.98.36.180:18443/ws"
+    },
+    "payloadDescription": {
+      "key": "skipServerCertVerification",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H02-C-ea83121caee5546b",
+    "group": "OWN_SHADOW",
+    "key": "skipServerCertVerification",
+    "ordinaryInputs": {
+      "message": "PPV8_H02_SKIPCERT_CONT8",
+      "options": {},
+      "url": "wss://10.98.36.180:18443/ws"
+    },
+    "payloadDescription": {
+      "key": "skipServerCertVerification",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H02-C-ea83121caee5546b",
+    "group": "B",
+    "key": "skipServerCertVerification",
+    "ordinaryInputs": {
+      "message": "PPV8_H02_SKIPCERT_CONT8",
+      "options": {},
+      "url": "wss://10.98.36.180:18443/ws"
+    },
+    "payloadDescription": {
+      "key": "skipServerCertVerification",
+      "value": true
+    }
+  }
+]

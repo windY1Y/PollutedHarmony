@@ -1,0 +1,7 @@
+{
+  "key": "selected",
+  "mode": "proxy",
+  "path": "value.getDate",
+  "injections": null,
+  "testArgs": "ppKey:selected;ppMode:proxy"
+}

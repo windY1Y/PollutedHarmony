@@ -1,0 +1,25 @@
+{
+  "caseId": "H08-R1-68b2cee3569307f6",
+  "source": "Test.js",
+  "bindings": "bindings.json",
+  "controls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "repetitions": 3,
+  "materialize": [
+    "python3",
+    "scripts/materialize.py",
+    "--case",
+    "H08-R1-68b2cee3569307f6",
+    "--out",
+    "work/projects/H08-R1-68b2cee3569307f6"
+  ],
+  "runtimeEntry": "run(context, bindings)",
+  "requiredHost": "stage Ability",
+  "compiled": false,
+  "deviceExecuted": false,
+  "securityValidationCompleted": false
+}

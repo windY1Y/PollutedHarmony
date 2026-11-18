@@ -1,0 +1,7 @@
+{
+  "key": "allowChildCount",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:allowChildCount;ppMode:proxy"
+}

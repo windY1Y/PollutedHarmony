@@ -1,0 +1,7 @@
+{
+  "key": "buttons",
+  "mode": "proxy",
+  "path": "0.action",
+  "injections": null,
+  "testArgs": "ppKey:buttons;ppMode:proxy"
+}

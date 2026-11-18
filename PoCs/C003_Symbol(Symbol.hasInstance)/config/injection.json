@@ -1,0 +1,7 @@
+{
+  "key": "constructor_of_SingleKVStore",
+  "mode": "proxy",
+  "path": "Symbol(Symbol.hasInstance)",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_SingleKVStore;ppMode:proxy"
+}

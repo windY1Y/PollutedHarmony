@@ -1,0 +1,7 @@
+{
+  "key": "isFrameNode",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:isFrameNode;ppMode:proxy"
+}

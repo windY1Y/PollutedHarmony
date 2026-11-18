@@ -1,0 +1,7 @@
+{
+  "key": "onmessageerror",
+  "mode": "string",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:launcher.event.EVENT_REQUEST_RECOMMEND_FORM_UPDATE;ppMode:string"
+}

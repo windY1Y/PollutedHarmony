@@ -1,0 +1,68 @@
+[
+  {
+    "caseId": "H20-C-1eda77af42dc289f",
+    "group": "B",
+    "key": "action",
+    "ordinaryInputs": {
+      "want": {
+        "bundleName": "org.oh.ppv3.peera",
+        "abilityName": "PeerAbility",
+        "parameters": {
+          "command": "receipt",
+          "canary": "5f68fbbc4ea5499bb0a5c9ade50e9724"
+        }
+      },
+      "options": {},
+      "link": "https://ppv3.invalid/ppv630",
+      "abilityResult": {
+        "resultCode": 0,
+        "want": {
+          "parameters": {
+            "canary": "PPV630"
+          }
+        }
+      },
+      "trigger": {
+        "code": 1901
+      },
+      "api": "startAbilityForResult"
+    },
+    "payloadDescription": {
+      "key": "action",
+      "value": "oh.ppv3.ACTION_B"
+    }
+  },
+  {
+    "caseId": "H20-C-1eda77af42dc289f",
+    "group": "PT",
+    "key": "action",
+    "ordinaryInputs": {
+      "want": {
+        "bundleName": "org.oh.ppv3.peera",
+        "abilityName": "PeerAbility",
+        "parameters": {
+          "command": "receipt",
+          "canary": "5f68fbbc4ea5499bb0a5c9ade50e9724"
+        }
+      },
+      "options": {},
+      "link": "https://ppv3.invalid/ppv630",
+      "abilityResult": {
+        "resultCode": 0,
+        "want": {
+          "parameters": {
+            "canary": "PPV630"
+          }
+        }
+      },
+      "trigger": {
+        "code": 1901
+      },
+      "api": "startAbilityForResult"
+    },
+    "payloadDescription": {
+      "key": "action",
+      "value": "oh.ppv3.ACTION_B"
+    }
+  }
+]

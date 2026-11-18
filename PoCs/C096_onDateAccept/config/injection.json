@@ -1,0 +1,7 @@
+{
+  "key": "onDateAccept",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onDateAccept;ppMode:proxy"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "onFocusDecrease",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onFocusDecrease;ppMode:proxy"
+}

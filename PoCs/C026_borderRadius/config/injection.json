@@ -1,0 +1,7 @@
+{
+  "key": "borderRadius",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:borderRadius;ppMode:proxy"
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H21-C-dcdf4865d89dd289",
+  "card": "H21",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "fileName": "ppv630-file.txt",
+    "contents": "PPV630_A_0123456789_PP V630_B",
+    "bufferBytes": 64,
+    "writeData": "PPV630_WRITE",
+    "options": {},
+    "randomAccessOptions": {}
+  },
+  "values": {
+    "inj0": {}
+  },
+  "shadowValue": 0,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 1,
+    "path": []
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [
+      "ohos.permission.DISTRIBUTED_DATASYNC"
+    ],
+    "requested": [],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {},
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H21-C-dcdf4865d89dd289.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "object",
+      "declarations": [
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1018,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1055,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1078,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1339,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1377,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1401,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1869,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1904,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1926,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1948,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1982,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 2003,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 2033,
+          "declaration": "offset: number;"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

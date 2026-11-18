@@ -1,0 +1,7 @@
+{
+  "key": "onPlaceChildren",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onPlaceChildren;ppMode:proxy"
+}

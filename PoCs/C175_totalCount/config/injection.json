@@ -1,0 +1,7 @@
+{
+  "key": "totalCount",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:totalCount;ppMode:proxy"
+}

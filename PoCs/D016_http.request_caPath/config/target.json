@@ -1,0 +1,5 @@
+{
+  "id": "D016",
+  "api": "http.request",
+  "property": "caPath"
+}

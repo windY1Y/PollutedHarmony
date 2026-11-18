@@ -1,0 +1,7 @@
+{
+  "key": "onEnterSelectedArea",
+  "mode": "string",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_SystemDefinedPixelMap;ppMode:string"
+}

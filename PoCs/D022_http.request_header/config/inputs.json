@@ -1,0 +1,119 @@
+[
+  {
+    "caseId": "H05-C-9ebdd35e142551ef",
+    "group": "CLEAN",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+      "observed_property": "header",
+      "configured_property": "header",
+      "inferred_property": "header",
+      "arg_path": "arg[1].header",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H05-C-9ebdd35e142551ef",
+    "group": "P",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+      "observed_property": "header",
+      "configured_property": "header",
+      "inferred_property": "header",
+      "arg_path": "arg[1].header",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H05-C-9ebdd35e142551ef",
+    "group": "OWN_SHADOW",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+      "observed_property": "header",
+      "configured_property": "header",
+      "inferred_property": "header",
+      "arg_path": "arg[1].header",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H05-C-9ebdd35e142551ef",
+    "group": "PT",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+      "observed_property": "header",
+      "configured_property": "header",
+      "inferred_property": "header",
+      "arg_path": "arg[1].header",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H05-C-9ebdd35e142551ef",
+    "group": "B",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+      "observed_property": "header",
+      "configured_property": "header",
+      "inferred_property": "header",
+      "arg_path": "arg[1].header",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H05-C-ed6b8eb86268dfe1",
+    "group": "B",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.request",
+      "observed_property": "header",
+      "configured_property": "header",
+      "inferred_property": "header",
+      "arg_path": "arg[1].header",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H05-C-ed6b8eb86268dfe1",
+    "group": "CLEAN",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.request",
+      "observed_property": "header",
+      "configured_property": "header",
+      "inferred_property": "header",
+      "arg_path": "arg[1].header",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H05-C-ed6b8eb86268dfe1",
+    "group": "PT",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.request",
+      "observed_property": "header",
+      "configured_property": "header",
+      "inferred_property": "header",
+      "arg_path": "arg[1].header",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H05-C-ed6b8eb86268dfe1",
+    "group": "P",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.request",
+      "observed_property": "header",
+      "configured_property": "header",
+      "inferred_property": "header",
+      "arg_path": "arg[1].header",
+      "source": "prototype"
+    }
+  }
+]

@@ -1,0 +1,141 @@
+{
+ "schema": "oh-pp-validation630-bindings-v1",
+ "caseId": "H01-C-dd52172d5f9bd75e",
+ "card": "H01",
+ "group": "B",
+ "runId": "UNBOUND",
+ "repetition": 1,
+ "repetitions": 3,
+ "timeoutMs": 20000,
+ "afterTimeoutMs": 5000,
+ "ordinary": {
+  "url": "https://10.98.36.180:18446/tls",
+  "options": {
+   "header": {
+    "X-PP-Canary": "PPV3_HTTP_CANARY"
+   },
+   "connectTimeout": 5000
+  }
+ },
+ "values": {
+  "inj0": {
+   "$resource": "labCaPath"
+  }
+ },
+ "shadowValue": null,
+ "receiverBinding": {
+  "kind": "argument",
+  "argument": 1,
+  "path": []
+ },
+ "fixtures": {
+  "rawFiles": []
+ },
+ "environment": {
+  "ACL": "PPV630_H29-C-52ba990f664cdfd2_environment.ACL",
+  "APL": "normal",
+  "HAP_hash": null,
+  "TokenID": 537644708,
+  "UID": 20010039,
+  "bundleEvidence": "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation15/h29/runs/20261029-h29-cont15-direct-docs-20261029-160455-311750814/provision/bundle-evidence.txt",
+  "caseId": "H29-C-52ba990f664cdfd2",
+  "continuation": "continuation15-h29-picker",
+  "guestBootId": "1c63052e-fc53-4831-9898-23493f4adf3a",
+  "image_hashes": {
+   "Image": "65e5854bf3b3018518d212128f1491311e0874e2fd8a0f67c8c3335b972d16a1",
+   "SHA256SUMS": "7c1d8ec92c32686e22b31067e474083d1110f9d0a222958ae351cde3e5cc67e3",
+   "ramdisk.img": "8e9b5b2f323033ef545e4a2c2280e247286a85ce1af448003f036682155ef0b9",
+   "system.img": "23d542410dd004ac6e658f64c6f88cb98afe5ef80645b5eb918965e4c6279e03",
+   "updater.img": "d93628f9255cc2eb6a6e12d288478097bb838067087ee1b80551b9445c8eb829",
+   "userdata.img": "0118eb6bd98b9b6950ed0922c2c6f5df3fc313cbce4d5ed4da337824dd7b6d02",
+   "vendor.img": "8ab136d5ecbcedb4df3f2d30e13448f6793f5a5e91fa0b8e2e1bd0eb1cb9f432"
+  },
+  "runId": "20261029-h29-cont15-direct-docs-20261029-160455-311750814",
+  "runtime_grants": "PPV630_H29-C-52ba990f664cdfd2_environment.runtime_grants",
+  "sandbox": "PPV630_H29-C-52ba990f664cdfd2_environment.sandbox",
+  "server_state": "PPV630_H29-C-52ba990f664cdfd2_environment.server_state",
+  "user": "PPV630_H29-C-52ba990f664cdfd2_environment.user"
+ },
+ "permissions": {
+  "manifest_mentions": [
+   "ohos.permission.DISTRIBUTED_DATASYNC",
+   "ohos.permission.INTERNET"
+  ],
+  "requested": [
+   "ohos.permission.INTERNET"
+  ],
+  "actual_grants": null,
+  "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants.",
+  "requestBasis": "Original network API fixtures and saved API contract; actual grant must be measured after installation."
+ },
+ "review": {
+  "callsiteAndOverload": false,
+  "injectionSemantics": false,
+  "fixedArguments": false,
+  "environment": false,
+  "oracle": false
+ },
+ "sourceReview": {
+  "hypothesisManuallyReviewed": true,
+  "basis": "user statement; not parameter, compilation, or runtime validation"
+ },
+ "proposedFixtureValuesNotValidated": true,
+ "executionContext": "ability_process",
+ "supportedControls": [
+  "B",
+  "P",
+  "PT",
+  "CLEAN"
+ ],
+ "valueBindingNotes": {
+  "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+  "proxyRecipes": {},
+  "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+ },
+ "resetRequirements": {
+  "freshProcess": true,
+  "sameResourceInitialState": true,
+  "perControlResetHookRequired": true,
+  "recordExternalStateBeforeAndAfter": true
+ },
+ "oracleContract": "../../oracle-contracts/H01-C-dd52172d5f9bd75e.json",
+ "valueBindingEvidence": {
+  "inj0": {
+   "purpose": "bounded_validation_payload",
+   "recordedMode": "string",
+   "declarations": [
+    {
+     "field": "caPath",
+     "snapshot": "evidence/sources/a48860cf25d9d6969e01d25c90e995533c74e4c5a099b335f2f862b361eff92b.ts",
+     "sha256": "a48860cf25d9d6969e01d25c90e995533c74e4c5a099b335f2f862b361eff92b",
+     "line": 398,
+     "declaration": "caPath?: string;"
+    }
+   ],
+   "historicalValueReplay": false,
+   "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+  }
+ },
+ "fixturePreparation": {
+  "labRawFiles": [
+   {
+    "id": "labCaPath",
+    "rawfile": "ppv3-ca.crt",
+    "sandboxName": "ppv630-ca.crt"
+   },
+   {
+    "id": "labClientCertPath",
+    "rawfile": "ppv3-client.crt",
+    "sandboxName": "ppv630-client.crt"
+   },
+   {
+    "id": "labClientKeyPath",
+    "rawfile": "ppv3-client.key",
+    "sandboxName": "ppv630-client.key"
+   }
+  ],
+  "canaryUpload": true
+ },
+ "bindingRevision": "static-v1",
+ "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

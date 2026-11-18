@@ -1,0 +1,7 @@
+{
+  "key": "prefixIcon",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:prefixIcon;ppMode:proxy"
+}

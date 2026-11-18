@@ -1,0 +1,7 @@
+{
+  "key": "_modifiersWithKeys",
+  "mode": "proxy",
+  "path": "bind.apply.setOnChange",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_UnifiedRecord;ppMode:proxy"
+}

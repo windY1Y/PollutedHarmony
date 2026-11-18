@@ -1,0 +1,502 @@
+[
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "B",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793460495,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 100
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "P",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793460508,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 100
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "PT",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793460519,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 100
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "CLEAN",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793460531,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 100
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "OWN_SHADOW",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793460544,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 100
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "B",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459675,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 8
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "P",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459687,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 8
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "PT",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459700,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 8
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "CLEAN",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459713,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 8
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "OWN_SHADOW",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459724,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 8
+    }
+  },
+  {
+    "caseId": "H21-C-539e23a6df3cf1a9",
+    "group": "B",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readText",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readText",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459801,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": {}
+    }
+  },
+  {
+    "caseId": "H21-C-539e23a6df3cf1a9",
+    "group": "P",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readText",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readText",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459813,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": {}
+    }
+  },
+  {
+    "caseId": "H21-C-539e23a6df3cf1a9",
+    "group": "PT",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readText",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readText",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459825,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": {}
+    }
+  },
+  {
+    "caseId": "H21-C-539e23a6df3cf1a9",
+    "group": "CLEAN",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readText",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readText",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459838,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": {}
+    }
+  },
+  {
+    "caseId": "H21-C-539e23a6df3cf1a9",
+    "group": "OWN_SHADOW",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readText",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readText",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459852,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": {}
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "B",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459736,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": "8"
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "P",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459750,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": "8"
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "PT",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459762,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": "8"
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "CLEAN",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459777,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": "8"
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "OWN_SHADOW",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readTextSync",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793459789,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": "8"
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "B",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readText",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793460557,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 100
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "P",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readText",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793460573,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 100
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "PT",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readText",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793460585,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 100
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "CLEAN",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readText",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793460601,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 100
+    }
+  },
+  {
+    "caseId": "H21-C-dea5a340300caf3a",
+    "group": "OWN_SHADOW",
+    "key": "offset",
+    "ordinaryInputs": {
+      "fileName": "ppv3-readtext.txt",
+      "api": "readText",
+      "canary": "PPV3_READTEXT_CANARY_0123456789.",
+      "sourceCaseApi": "readTextSync",
+      "sourceModule": "file.fs",
+      "sourceProperty": "offset",
+      "fileBytes": 32,
+      "mtime": 1793460613,
+      "mtimeMs": null
+    },
+    "payloadDescription": {
+      "key": "offset",
+      "value": 100
+    }
+  }
+]

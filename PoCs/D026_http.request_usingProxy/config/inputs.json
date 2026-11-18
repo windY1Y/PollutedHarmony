@@ -1,0 +1,427 @@
+[
+  {
+    "caseId": "H04-C-bf40c59ab154366e",
+    "group": "PT",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+      "observed_property": "usingProxy",
+      "configured_property": "usingProxy",
+      "inferred_property": "usingProxy",
+      "arg_path": "arg[1].usingProxy",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H04-C-bf40c59ab154366e",
+    "group": "B",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+      "observed_property": "usingProxy",
+      "configured_property": "usingProxy",
+      "inferred_property": "usingProxy",
+      "arg_path": "arg[1].usingProxy",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H04-C-bf40c59ab154366e",
+    "group": "P",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+      "observed_property": "usingProxy",
+      "configured_property": "usingProxy",
+      "inferred_property": "usingProxy",
+      "arg_path": "arg[1].usingProxy",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H04-C-bf40c59ab154366e",
+    "group": "OWN_SHADOW",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+      "observed_property": "usingProxy",
+      "configured_property": "usingProxy",
+      "inferred_property": "usingProxy",
+      "arg_path": "arg[1].usingProxy",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H04-C-bf40c59ab154366e",
+    "group": "CLEAN",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.requestInStream",
+      "observed_property": "usingProxy",
+      "configured_property": "usingProxy",
+      "inferred_property": "usingProxy",
+      "arg_path": "arg[1].usingProxy",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "PT",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-1a49d46cbf8d4216b2d8b43937b1270e"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "OWN_SHADOW",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-728df3ca07b742689bdedb88f53bfa87"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "CLEAN",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-76d47b8a24c347958646171ef1375735"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "B",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-883486b3f97a43b48b085b425f5f355a"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "B",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-8f934548dfbf47398678bb223371fbd0"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "PT",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-9d206e4eaa1246b1bfeb59f72430d501"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "P",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-a5eb6550d9684c28887426f21a6e7ab0"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "P",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-b5d816c45bb04adb92baabe2a7a82102"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "P",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-c7e2fde3d9f843fb845782215ca25932"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "OWN_SHADOW",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-ca05c41557a7443c92da13d85e3a3e26"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "CLEAN",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-d6ad9595266644238096464fdc987433"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "CLEAN",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-d87a8ce75b9a49e287c05844257b256b"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "PT",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-db668c1228bf4dfc9f666077d0fd28c9"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "OWN_SHADOW",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-efe5934aacd04a8f8e01fa4ead1dc914"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  },
+  {
+    "caseId": "H04-C-9b8b0db766f70998",
+    "group": "B",
+    "key": "usingProxy",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "Content-Type": "application/json",
+          "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY-f3ff6569953d47929f4df9d6942705e1"
+        },
+        "readTimeout": 5000
+      },
+      "url": "http://10.98.36.180:19481/canary"
+    },
+    "payloadDescription": {
+      "key": "usingProxy",
+      "value": {
+        "exclusionList": [],
+        "host": "10.98.36.180",
+        "port": 19480
+      }
+    }
+  }
+]

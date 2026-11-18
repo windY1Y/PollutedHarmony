@@ -1,0 +1,7 @@
+{
+  "key": "callback",
+  "mode": "string",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_Summary;ppMode:string"
+}

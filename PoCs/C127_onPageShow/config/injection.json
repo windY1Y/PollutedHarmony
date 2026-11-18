@@ -1,0 +1,7 @@
+{
+  "key": "onPageShow",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onPageShow;ppMode:proxy"
+}

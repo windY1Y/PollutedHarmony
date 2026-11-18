@@ -1,0 +1,74 @@
+{
+ "schema": "oh-pp-validation630-bindings-v1",
+ "card": "T12",
+ "api": "TLSSocket.connect",
+ "experimentScope": "T12 secureOptions.ca omitted: prototype-chain native property read plants an attacker CA into the TLS trust store",
+ "executionContext": "ability_process",
+ "runId": "UNBOUND",
+ "group": "B",
+ "repetition": 1,
+ "bindingRevision": "static-v1",
+ "timeoutMs": 20000,
+ "afterTimeoutMs": 5000,
+ "cellDeadlineSec": 60,
+ "ordinary": {
+  "bind": {
+   "address": "0.0.0.0",
+   "family": 1,
+   "port": 0
+  },
+  "options": {
+   "address": {
+    "address": "10.98.36.180",
+    "family": 1,
+    "port": 18446
+   },
+   "secureOptions": {}
+  }
+ },
+ "injection": {
+  "key": "ca",
+  "value": "-----BEGIN CERTIFICATE-----\nMIIDDTCCAfWgAwIBAgIUBvX6r5VEfSiw2e6FvNR06XFDZ4EwDQYJKoZIhvcNAQEL\nBQAwFjEUMBIGA1UEAwwLUFBWMy1MQUItQ0EwHhcNMjYxMDEzMTA0NzQ2WhcNMjYx\nMTEyMTA0NzQ2WjAWMRQwEgYDVQQDDAtQUFYzLUxBQi1DQTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAM+sOFfB4FnK5gXx+XXHmXyfp8NS0p0uEnFJDooW\nMch+7/x7ksXtnJJQV97dKd2gMKrGJHazNLQI+kamMDcI72NP20nkKUD2o7XULzAl\nps1tEt+DAOg158tx5u5hLbX3MbLXcryLdR7RmsYLJHqIGZBG2jGQsraFrgYtu+yQ\nZbZ4QbSxBp4Ir4Os5FSaGKO5hXtwoWT+2aqco0gt3FWIWvgupQTfGA+5ogGvCxp/\nhR9R5KbF6biJ3FfkAPWB4YLPgE7dHWhwtutY0JpVRFqbbQ2TpA+Eee+SbpbOdzFR\nZ8S8SlQ7CSbwFliVRFa2b5PPnih3w/ivtDRT88/x+6lQptECAwEAAaNTMFEwHQYD\nVR0OBBYEFH9FC9LPKZoDsablYfAcJvqNlkM4MB8GA1UdIwQYMBaAFH9FC9LPKZoD\nsablYfAcJvqNlkM4MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB\nAEDxqbozql0lPqll4h3GFmL3666SOG945cd4yXnhto44srm1iI0euBVyrEIMHnI7\nEMNOFOCfoZR2leI4DPj48bzfv7GsRTSqq9N+1o0UNgeLr43CrG8htCBkMdfi28uQ\n8NTIulzdqkSYs+awQKoC4pOBIeTI2ER2s0PYybIjEBRQ2FVJocZI6xuE9EA0pkfe\n6taaV0yhYCuX9t0QWCWLueretDydx4hx6n4+AHS2dIKlvfrDWFcD3fT4Ir8q9wTb\ncASDA3MKaD0pkPh8+EiOaxiQWwzJ85Xmy8kNvwAshisiYC98in29bdU35WrxCEX3\ngQDZDF7fP7fP/4V8yY0ajKk=\n-----END CERTIFICATE-----\n",
+  "path": [
+   "secureOptions"
+  ]
+ },
+ "shadow": "T12-SHADOW-not-a-certificate",
+ "receiverBinding": {
+  "argument": 0,
+  "kind": "argument",
+  "path": [
+   "secureOptions"
+  ]
+ },
+ "fixtures": {
+  "server": {
+   "address": "10.98.36.180",
+   "port": 18446,
+   "path": "/t12",
+   "tls": "server.crt signed by PPV3-LAB-CA (system-untrusted), SAN IP:10.98.36.180",
+   "log": "/data/oh-testing/v2/05_validation/round3-codegen-20261013/work/H01-run-20261013/server.jsonl",
+   "canary": "cfg.runId + \"-T12\" sent as X-PP-Canary header"
+  }
+ },
+ "controlSemantics": {
+  "B": "no injection; ca omitted -> system trust store; expect TLS certificate verification failure",
+  "P": "single-root representative; no prerequisite injection (same as B)",
+  "PT": "Object.prototype.ca = PPV3-LAB-CA PEM -> expect handshake success + server request log",
+  "CLEAN": "policy-shadow control; no descriptor installed",
+  "OWN_SHADOW": "own ca on options.secureOptions = unrelated string -> expect failure, prototype getter reads = 0"
+ },
+ "supportedControls": [
+  "B",
+  "P",
+  "PT",
+  "CLEAN",
+  "OWN_SHADOW"
+ ],
+ "permissions": {
+  "requested": [
+   "ohos.permission.INTERNET"
+  ],
+  "note": "manifest declaration; actual grant bound by environment template"
+ }
+}

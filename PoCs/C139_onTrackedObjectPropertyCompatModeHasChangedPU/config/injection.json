@@ -1,0 +1,7 @@
+{
+  "key": "onTrackedObjectPropertyCompatModeHasChangedPU",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onTrackedObjectPropertyCompatModeHasChangedPU;ppMode:proxy"
+}

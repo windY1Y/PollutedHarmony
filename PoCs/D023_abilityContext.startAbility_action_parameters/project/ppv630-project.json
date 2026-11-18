@@ -1,0 +1,32 @@
+{
+  "caseId": "H20-C-13a2b75871b4af7f",
+  "includedCaseIds": [
+    "H20-C-13a2b75871b4af7f",
+    "H20-C-86d5840ab5bd8692",
+    "H20-C-543888b46d617386",
+    "H20-C-a7511c7f8ee9a7d7",
+    "H20-C-7e1344c46b4bd77c",
+    "H20-C-117376fbbc43b194",
+    "H20-C-54029720c71641d9",
+    "H20-C-212a887456a0a60f",
+    "H20-C-2c4f3f5d7fddfee0",
+    "H20-C-d8243ad38c7f15ac",
+    "H20-C-b035f93570c00efe",
+    "H20-C-08b03f6ce22fe040",
+    "H20-C-e7f5ecbe76eef1df",
+    "H20-C-1eda77af42dc289f"
+  ],
+  "card": "H20",
+  "adapter": "ability",
+  "role": "runner",
+  "bundleName": "org.oh.ppv3.runner",
+  "compiled": false,
+  "deviceExecuted": false,
+  "bindingReviewRequired": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  }
+}

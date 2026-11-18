@@ -1,0 +1,162 @@
+{
+  "afterTimeoutMs": 15000,
+  "bindingNotes": [],
+  "buildArtifact": {
+    "sha256": "4b6aa7416de95c7994ba4e9f1cbf3ba70945d9cc13f0260a40424af59e2c5d08",
+    "signatureACL": [],
+    "signatureAPL": "normal",
+    "signedHap": "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation14/h23-availableout-attribution-v1/sign/artifacts/H23-attribution-normal-signed.hap"
+  },
+  "card": "H23",
+  "caseId": "H23-C-aac5f892e27bac5f",
+  "conditions": [
+    "Bounded 64-byte output; do not claim memory safety from successful compression",
+    "Native sanitizer/crash evidence required for security verdict"
+  ],
+  "continuation7RecoveryReview": {
+    "caseId": "H23-C-aac5f892e27bac5f",
+    "oracleSha256": "5c5c46933c8a126cc034bf7514fd08fe5baf66e5f7b8b63b3f95181d409901d3",
+    "reviewEvidence": "/data/oh-testing/v2/05_validation/manual-retests/20261018/phase2/continuation7/recovery-preflight-v4/H23-C-aac5f892e27bac5f.review.json",
+    "sourceConfigSha256": "2e68be4533d76aaf1ebf99060d5b754cc765fec462ec20f17f90704c25d32868",
+    "syntheticFieldsAdded": false
+  },
+  "environment": {
+    "ACL": [],
+    "APL": "normal",
+    "HAP_hash": "4b6aa7416de95c7994ba4e9f1cbf3ba70945d9cc13f0260a40424af59e2c5d08",
+    "TokenID": 537644708,
+    "UID": 20010039,
+    "image_hashes": {
+      "Image": "65e5854bf3b3018518d212128f1491311e0874e2fd8a0f67c8c3335b972d16a1",
+      "SHA256SUMS": "7c1d8ec92c32686e22b31067e474083d1110f9d0a222958ae351cde3e5cc67e3",
+      "ramdisk.img": "8e9b5b2f323033ef545e4a2c2280e247286a85ce1af448003f036682155ef0b9",
+      "system.img": "23d542410dd004ac6e658f64c6f88cb98afe5ef80645b5eb918965e4c6279e03",
+      "updater.img": "d93628f9255cc2eb6a6e12d288478097bb838067087ee1b80551b9445c8eb829",
+      "userdata.img": "0118eb6bd98b9b6950ed0922c2c6f5df3fc313cbce4d5ed4da337824dd7b6d02",
+      "vendor.img": "8ab136d5ecbcedb4df3f2d30e13448f6793f5a5e91fa0b8e2e1bd0eb1cb9f432"
+    },
+    "runtime_grants": {},
+    "sandbox": {
+      "filesDir": "/data/storage/el2/base/haps/entry/files"
+    },
+    "server_state": {
+      "scope": "no external fixture; local zlib stream state only"
+    },
+    "user": 100,
+    "bundleEvidence": "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation14/h23-availableout-attribution-v1/config/device-probe.json",
+    "caseId": "H23-C-aac5f892e27bac5f",
+    "continuation": "continuation14-h23-availableout-attribution-v1",
+    "guestBootId": "1c63052e-fc53-4831-9898-23493f4adf3a",
+    "runId": "20261029-h23-attribution-v1"
+  },
+  "execution": {
+    "compiled": true,
+    "executed": true
+  },
+  "fixtures": {},
+  "group": "B",
+  "hypothesisReview": {
+    "accepted": true,
+    "runtimeValidation": false,
+    "source": "explicit user statement in this conversation"
+  },
+  "injection": {
+    "key": "availableOut",
+    "value": 1
+  },
+  "oracle": {
+    "behavior_prediction": "\u7ee7\u627f\u72b6\u6001\u5b57\u6bb5\u53ef\u80fd\u5f71\u54cd\u538b\u7f29\u6d41\u8f6c\u6362\u3001\u957f\u5ea6\u6216\u5934\u7ed3\u6784\u3002",
+    "collect": "\u6d41\u72b6\u6001\u3001\u5b9e\u9645\u8bfb\u5199\u5b57\u8282\u3001canary\u3001\u5d29\u6e83\u6808\u3002",
+    "falsifying_result": "\u5b57\u6bb5\u53ea\u662f\u8f93\u51fa\u72b6\u6001\u6216\u88ab\u81ea\u6709\u5b57\u6bb5\u906e\u853d\uff0c\u6216\u6821\u9a8c\u5b89\u5168\u62d2\u7edd\u3002",
+    "invalid_experiment_conditions": [
+      "\u76ee\u6807\u8c03\u7528/\u8bfb\u53d6\u672a\u5230\u8fbe",
+      "\u539f\u578b\u5b89\u88c5\u4e0d\u5728\u76ee\u6807 realm",
+      "\u57fa\u7ebf\u5df2\u6ee1\u8db3\u6240\u8c13\u6210\u529f\u6761\u4ef6",
+      "\u666e\u901a\u53c2\u6570\u3001\u6743\u9650\u6216\u8d44\u6e90\u72b6\u6001\u5728\u7ec4\u95f4\u6539\u53d8",
+      "\u53ea\u6709\u6d4b\u8bd5\u6869/\u6846\u67b6\u4ea7\u751f\u53d8\u5316"
+    ],
+    "security_success": "\u82e5\u672a\u7ecf\u9a8c\u8bc1\u7684\u5b57\u6bb5\u8fdb\u5165\u5b9e\u9645\u7f13\u51b2\u533a\u64cd\u4f5c\uff0c\u6c61\u67d3\u9020\u6210\u5185\u5b58\u9519\u8bef\u6216\u975e\u9884\u671f\u6301\u4e45\u5316\u635f\u574f\u3002",
+    "verdicts": [
+      "security_effect_supported",
+      "behavior_only",
+      "not_reproduced_under_tested_conditions",
+      "invalid_experiment",
+      "needs_evidence"
+    ]
+  },
+  "ordinary": {
+    "flush": 4,
+    "input": "PPV3_ZLIB_CANARY",
+    "level": 1,
+    "outputBytes": 64,
+    "consumerBytes": 24
+  },
+  "permissions": {
+    "actual_grants": null,
+    "declared_api_contracts": [],
+    "manifest_mentions": [
+      "ohos.permission.INTERNET"
+    ],
+    "note": "Manifest request is not proof of a grant. Signature/APL/ACL and device grants are separately recorded.",
+    "profile": "ordinary",
+    "requested": []
+  },
+  "repetition": 1,
+  "repetitions": 3,
+  "review": {
+    "callsiteAndOverload": true,
+    "environment": true,
+    "fixedArguments": true,
+    "injectionSemantics": true,
+    "oracle": true
+  },
+  "runId": "UNBOUND",
+  "schema": "oh-pp-config-v1",
+  "scope": "one saved representative; no automatic extension to all card members",
+  "shadow": 64,
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "target": {
+    "api": "Zip.deflate",
+    "arg_path": "arg[0].availableOut",
+    "configured_property": "availableOut",
+    "inferred_property": "availableOut",
+    "module": "zlib",
+    "observed_property": "availableOut",
+    "source": "prototype"
+  },
+  "timeoutMs": 20000,
+  "values": {},
+  "continuation12QuickDosReview": {
+    "schema": "continuation13-h23-availableout-consumer-v1",
+    "caseId": "H23-C-aac5f892e27bac5f",
+    "reason": "continuation13 v4; consume the deflate output with a real Zip.inflate call",
+    "compatibilityOnlyFields": [
+      "values"
+    ],
+    "target": "arg[0].availableOut",
+    "ptVariants": [
+      1
+    ],
+    "oracle": "Zip.inflate receives the 24-byte deflate output; B/P/CLEAN must restore PPV3_ZLIB_CANARY, while PT failure must be stable and PT-only",
+    "analystModel": "Codex GPT-5",
+    "reviewerModel": "Codex GPT-5 independent review",
+    "runnerModel": "validation630 runner on 10.98.36.180",
+    "supervisorModel": "Codex GPT-5 independent supervisor pass",
+    "adjudicatorModel": "Codex GPT-5 final adjudication",
+    "purpose": "exact original PT value reproduction after ppv630-to-ppv3 launch-argument bridge",
+    "consumer": "Zip.inflate",
+    "consumerBytes": 24
+  },
+  "continuation14": {
+    "prototypeValue": 1,
+    "ownShadowValue": 64,
+    "consumerInputBytes": 24,
+    "caseId": "H23-C-aac5f892e27bac5f"
+  }
+}

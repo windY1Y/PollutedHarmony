@@ -1,0 +1,145 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H21-C-1d394ec7fece482b",
+  "card": "H21",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "fileName": "ppv630-file.txt",
+    "contents": "PPV630_A_0123456789_PP V630_B",
+    "bufferBytes": 64,
+    "writeData": "PPV630_WRITE",
+    "options": {},
+    "randomAccessOptions": {}
+  },
+  "values": {
+    "inj0": {
+      "$proxy": {
+        "kind": "legacy-callable",
+        "coercion": "8",
+        "get": {},
+        "maxDepth": 16
+      }
+    }
+  },
+  "shadowValue": 0,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 1,
+    "path": []
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [
+      "ohos.permission.DISTRIBUTED_DATASYNC"
+    ],
+    "requested": [],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {
+      "inj0": {
+        "requiredRepresentation": {
+          "$proxy": {
+            "target": {},
+            "get": {}
+          }
+        },
+        "status": "UNBOUND: match original proxy traps from injector evidence; empty recipe is not a validated payload"
+      }
+    },
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H21-C-1d394ec7fece482b.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "proxy",
+      "declarations": [
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts",
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "line": 3617,
+          "declaration": "declare function lseek(fd: number, offset: number, whence?: WhenceType): number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts",
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "line": 9277,
+          "declaration": "seek(offset: number, whence?: WhenceType): number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts",
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "line": 9409,
+          "declaration": "seek(offset: number, whence?: WhenceType): number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts",
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "line": 11487,
+          "declaration": "offset?: number;"
+        },
+        {
+          "field": "offset",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts",
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "line": 11615,
+          "declaration": "offset?: number;"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

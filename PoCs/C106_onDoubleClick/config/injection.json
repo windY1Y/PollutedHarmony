@@ -1,0 +1,7 @@
+{
+  "key": "onDoubleClick",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onDoubleClick;ppMode:proxy"
+}

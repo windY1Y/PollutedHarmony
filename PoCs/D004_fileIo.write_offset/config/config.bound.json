@@ -1,0 +1,177 @@
+{
+  "afterTimeoutMs": 5000,
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified.",
+  "bindingRevision": "static-v1",
+  "card": "H21",
+  "caseId": "H21-C-08943cb022c0c6fe",
+  "environment": {
+    "ACL": [],
+    "APL": "normal",
+    "HAP_hash": "f2d1cab97cf0f01ead0514032e0cbc8233ff788f2242056bd7b2398a0f7da064",
+    "TokenID": 537022105,
+    "UID": 20010034,
+    "bundleEvidence": "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation18/h21-offset-boundaries/20261029-h21-cont18-offset-1-20261029-190124-d08f786e/device-probe.json",
+    "caseId": "H21-C-08943cb022c0c6fe",
+    "continuation": "continuation18-h21-offset-boundaries",
+    "guestBootId": "1b780ace-ceea-4b88-9762-7c121ee07d7f",
+    "image_hashes": {
+      "Image": "65e5854bf3b3018518d212128f1491311e0874e2fd8a0f67c8c3335b972d16a1",
+      "SHA256SUMS": "65993f11d70fb0db3eb7198d0b13f542d4ccc8c58d69e5313c863e6e76bb5402",
+      "ramdisk.img": "8e9b5b2f323033ef545e4a2c2280e247286a85ce1af448003f036682155ef0b9",
+      "system.img": "5fd6bc679368b8b0838da35b99dfc5980d7d3d762ec8a8e764935a9c0c5e450f",
+      "updater.img": "d93628f9255cc2eb6a6e12d288478097bb838067087ee1b80551b9445c8eb829",
+      "userdata.img": "0118eb6bd98b9b6950ed0922c2c6f5df3fc313cbce4d5ed4da337824dd7b6d02",
+      "vendor.img": "8ab136d5ecbcedb4df3f2d30e13448f6793f5a5e91fa0b8e2e1bd0eb1cb9f432"
+    },
+    "runId": "20261029-h21-cont18-offset-1-20261029-190124-d08f786e",
+    "runtime_grants": {},
+    "sandbox": {
+      "filesDir": "/data/storage/el2/base/haps/entry/files"
+    },
+    "server_state": {
+      "scope": "continuation18 H21 boundary matrix; independent file and buffer oracle"
+    },
+    "user": 100
+  },
+  "executionContext": "ability_process",
+  "fixtures": {},
+  "group": "B",
+  "oracleContract": "../../oracle-contracts/H21-C-08943cb022c0c6fe.json",
+  "ordinary": {
+    "bufferBytes": 64,
+    "contents": "PPV630_A_0123456789_PP V630_B",
+    "fileName": "ppv630-file.txt",
+    "options": {},
+    "randomAccessOptions": {},
+    "writeData": "PPV630_WRITE"
+  },
+  "permissions": {
+    "actual_grants": null,
+    "manifest_mentions": [
+      "ohos.permission.DISTRIBUTED_DATASYNC"
+    ],
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants.",
+    "requested": []
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "receiverBinding": {
+    "argument": 1,
+    "kind": "argument",
+    "path": []
+  },
+  "repetition": 1,
+  "repetitions": 3,
+  "resetRequirements": {
+    "freshProcess": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true,
+    "sameResourceInitialState": true
+  },
+  "review": {
+    "callsiteAndOverload": true,
+    "environment": true,
+    "fixedArguments": true,
+    "injectionSemantics": true,
+    "oracle": true
+  },
+  "reviewEvidence": {
+    "adjustments": [],
+    "callsiteAndOverload": "Recorded API is preserved by the matching file/fileio/zlib adapter; unsupported contexts explicitly deferred. Exact historical callsite attribution remains subject to runtime evidence.",
+    "environment": "Dedicated guest context, no shared network/fixture calls; run_matrix acquires guest/card/job locks and records actual install identity, grants and image hashes.",
+    "fixedArguments": "Original bounded fixtures retained; any non-target buffer length adjustment listed explicitly.",
+    "injectionSemantics": "Immutable case injection path/mode/order and complete supportedControls retained; no target-own-property removal.",
+    "oracle": "Reviewed original per-case oracle contract; observation/after comparison only yields candidates or needs_evidence, never automatic protected-invariant success.",
+    "oracleContract": "/data/oh-testing/v2/05_validation/round3-codegen-20261013/validation630/oracle-contracts/H21-C-08943cb022c0c6fe.json",
+    "reviewedAt": 1791942442.066679,
+    "scope": "Executable bounded laboratory protocol, not completed security validation",
+    "source": "/data/oh-testing/v2/05_validation/round3-codegen-20261013/validation630/cases/H21-C-08943cb022c0c6fe/Test.js"
+  },
+  "runId": "UNBOUND",
+  "schema": "oh-pp-validation630-bindings-v1",
+  "shadowValue": 0,
+  "sourceReview": {
+    "basis": "user statement; not parameter, compilation, or runtime validation",
+    "hypothesisManuallyReviewed": true
+  },
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "timeoutMs": 20000,
+  "valueBindingEvidence": {
+    "inj0": {
+      "declarations": [
+        {
+          "declaration": "declare function lseek(fd: number, offset: number, whence?: WhenceType): number;",
+          "field": "offset",
+          "line": 3617,
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts"
+        },
+        {
+          "declaration": "seek(offset: number, whence?: WhenceType): number;",
+          "field": "offset",
+          "line": 9277,
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts"
+        },
+        {
+          "declaration": "seek(offset: number, whence?: WhenceType): number;",
+          "field": "offset",
+          "line": 9409,
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts"
+        },
+        {
+          "declaration": "offset?: number;",
+          "field": "offset",
+          "line": 11487,
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts"
+        },
+        {
+          "declaration": "offset?: number;",
+          "field": "offset",
+          "line": 11615,
+          "sha256": "257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e",
+          "snapshot": "evidence/sources/257475b9ccdf8d84e1391c65c5a2877f3cae6968f6c9e8f166120a2c7d52676e.ts"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence.",
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "proxy"
+    }
+  },
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation.",
+    "proxyRecipes": {
+      "inj0": {
+        "requiredRepresentation": {
+          "$proxy": {
+            "get": {},
+            "target": {}
+          }
+        },
+        "status": "UNBOUND: match original proxy traps from injector evidence; empty recipe is not a validated payload"
+      }
+    }
+  },
+  "values": {
+    "inj0": {
+      "numeric": 1
+    }
+  },
+  "continuation18BoundaryOffset": 1,
+  "continuation18Oracle": {
+    "fileAndBufferHashesRequired": true,
+    "fileLengthRequired": true,
+    "outsideWriteSentinel": true,
+    "processAndDiagnosticEvidenceRequired": true,
+    "singleChangedAttribute": "arg[1].offset"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "key": "activatedBackgroundColor",
+  "mode": "object",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:button+button;ppMode:object"
+}

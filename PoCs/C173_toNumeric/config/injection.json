@@ -1,0 +1,7 @@
+{
+  "key": "shadow",
+  "mode": "proxy",
+  "path": "color.toNumeric",
+  "injections": null,
+  "testArgs": "ppKey:shadow;ppMode:proxy"
+}

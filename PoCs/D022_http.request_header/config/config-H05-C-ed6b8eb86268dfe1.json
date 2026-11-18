@@ -1,0 +1,181 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H05-C-ed6b8eb86268dfe1",
+  "card": "H05",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "url": "http://10.98.36.180:18081/verb",
+    "options": {
+      "connectTimeout": 5000
+    }
+  },
+  "values": {
+    "inj0": {
+      "$proxy": {
+        "kind": "legacy-callable",
+        "coercion": "8",
+        "get": {
+          "X-PP-Canary": "PPV630_HEADER"
+        },
+        "maxDepth": 16
+      }
+    }
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 1,
+    "path": []
+  },
+  "fixtures": {
+    "rawFiles": []
+  },
+  "environment": {
+    "HAP_hash": "6123e2b9429c1014923ef5297eb599c20aa5eefd6919cb4d26eeb490325d37b5",
+    "image_hashes": {
+      "updater.img": "d93628f9255cc2eb6a6e12d288478097bb838067087ee1b80551b9445c8eb829",
+      "Image": "65e5854bf3b3018518d212128f1491311e0874e2fd8a0f67c8c3335b972d16a1",
+      "ramdisk.img": "8e9b5b2f323033ef545e4a2c2280e247286a85ce1af448003f036682155ef0b9",
+      "vendor.img": "8ab136d5ecbcedb4df3f2d30e13448f6793f5a5e91fa0b8e2e1bd0eb1cb9f432",
+      "SHA256SUMS": "65993f11d70fb0db3eb7198d0b13f542d4ccc8c58d69e5313c863e6e76bb5402",
+      "system.img": "5fd6bc679368b8b0838da35b99dfc5980d7d3d762ec8a8e764935a9c0c5e450f",
+      "userdata.img": "0118eb6bd98b9b6950ed0922c2c6f5df3fc313cbce4d5ed4da337824dd7b6d02"
+    },
+    "UID": 20010033,
+    "TokenID": 537289585,
+    "APL": "normal",
+    "ACL": [],
+    "runtime_grants": {
+      "ohos.permission.INTERNET": 0
+    },
+    "user": 100,
+    "sandbox": {
+      "filesDir": "/data/storage/el2/base/haps/entry/files"
+    },
+    "server_state": {
+      "scope": "existing bounded network fixture"
+    },
+    "guestBootId": "7af33028-d47f-4656-944e-1b8c71a21c9c",
+    "isSystemApp": false,
+    "signingEvidence": "/data/oh-testing/v2/05_validation/round3-codegen-20261013/work/all-build-20261013/signing",
+    "installedHapEvidence": "/data/oh-testing/v2/05_validation/hourly-runs/20261013_232346/H03/logs/install.txt",
+    "bundleEvidence": "/data/oh-testing/v2/05_validation/hourly-runs/20261013_232346/H03/logs/bundle.txt"
+  },
+  "permissions": {
+    "manifest_mentions": [
+      "ohos.permission.GET_NETWORK_INFO",
+      "ohos.permission.INTERNET"
+    ],
+    "requested": [
+      "ohos.permission.INTERNET"
+    ],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants.",
+    "requestBasis": "Original network API fixtures and saved API contract; actual grant must be measured after installation."
+  },
+  "review": {
+    "callsiteAndOverload": true,
+    "injectionSemantics": true,
+    "fixedArguments": true,
+    "environment": true,
+    "oracle": true
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {
+      "inj0": {
+        "requiredRepresentation": {
+          "$proxy": {
+            "target": {},
+            "get": {}
+          }
+        },
+        "status": "UNBOUND: match original proxy traps from injector evidence; empty recipe is not a validated payload"
+      }
+    },
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H05-C-ed6b8eb86268dfe1.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "proxy",
+      "declarations": [
+        {
+          "field": "header",
+          "snapshot": "evidence/sources/a48860cf25d9d6969e01d25c90e995533c74e4c5a099b335f2f862b361eff92b.ts",
+          "sha256": "a48860cf25d9d6969e01d25c90e995533c74e4c5a099b335f2f862b361eff92b",
+          "line": 280,
+          "declaration": "header?: Object;"
+        },
+        {
+          "field": "header",
+          "snapshot": "evidence/sources/a48860cf25d9d6969e01d25c90e995533c74e4c5a099b335f2f862b361eff92b.ts",
+          "sha256": "a48860cf25d9d6969e01d25c90e995533c74e4c5a099b335f2f862b361eff92b",
+          "line": 3805,
+          "declaration": "header: Object;"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "fixturePreparation": {
+    "labRawFiles": [
+      {
+        "id": "labCaPath",
+        "rawfile": "ppv3-ca.crt",
+        "sandboxName": "ppv630-ca.crt"
+      },
+      {
+        "id": "labClientCertPath",
+        "rawfile": "ppv3-client.crt",
+        "sandboxName": "ppv630-client.crt"
+      },
+      {
+        "id": "labClientKeyPath",
+        "rawfile": "ppv3-client.key",
+        "sandboxName": "ppv630-client.key"
+      }
+    ],
+    "canaryUpload": true
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified.",
+  "reviewEvidence": {
+    "callsiteAndOverload": "Construct fresh ordinary options without optional own header from initialization; no deletion during injection and no runtime shadow-check bypass. Header optional in API declaration; saved callsite source binding reviewed, historical line version unverified.",
+    "injectionSemantics": "Original Test.js, paths, modes, payload values and control list retained.",
+    "fixedArguments": "Construct fresh ordinary options without optional own header from initialization; no deletion during injection and no runtime shadow-check bypass. Header optional in API declaration; saved callsite source binding reviewed, historical line version unverified.",
+    "environment": "Actual installed normal caller, original permissions and guest-origin preflight; matrix fixture lock held.",
+    "oracle": "Actual API/server request observations; collection and getter reads are not authorization bypass."
+  },
+  "sourceEvidence": {
+    "context": "/data/oh-testing/v2/05_validation/round3-codegen-20261013/validation630/evidence/H05-C-ed6b8eb86268dfe1/context.json",
+    "contextHash": "97916463aba9f64fe4deb94d5a3e042e56defc7a49d8176402d391f13a3d5688",
+    "declarationHash": "a48860cf25d9d6969e01d25c90e995533c74e4c5a099b335f2f862b361eff92b",
+    "nativeHash": "ceadefaf25e26be65c3549258cf86a17e113578334f73c99eb48c54de257651e"
+  }
+}

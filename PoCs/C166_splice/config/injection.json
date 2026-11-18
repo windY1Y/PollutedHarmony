@@ -1,0 +1,7 @@
+{
+  "key": "sectionArray",
+  "mode": "proxy",
+  "path": "bind.apply.splice",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_SDAppItem;ppMode:proxy"
+}

@@ -1,0 +1,5 @@
+{
+  "id": "D017",
+  "api": "TLSSocket.connect",
+  "property": "secureOptions.ca"
+}

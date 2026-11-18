@@ -1,0 +1,21 @@
+{
+  "key": "build",
+  "mode": "proxy",
+  "path": "",
+  "injections": [
+    {
+      "mode": "object",
+      "path": [
+        "builderNode_"
+      ]
+    },
+    {
+      "mode": "proxy",
+      "path": [
+        "builderNode_",
+        "build"
+      ]
+    }
+  ],
+  "testArgs": "ppSpec:%7B%22version%22%3A1%2C%22properties%22%3A%5B%7B%22mode%22%3A%22object%22%2C%22path%22%3A%5B%22builderNode_%22%5D%7D%2C%7B%22mode%22%3A%22proxy%22%2C%22path%22%3A%5B%22builderNode_%22%2C%22build%22%5D%7D%5D%7D;ppSession:43fa88a621eab1b81724096f"
+}

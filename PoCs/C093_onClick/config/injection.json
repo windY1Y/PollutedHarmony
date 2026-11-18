@@ -1,0 +1,7 @@
+{
+  "key": "onClick",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_File;ppMode:proxy"
+}

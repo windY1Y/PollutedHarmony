@@ -1,0 +1,7 @@
+{
+  "key": "onDidDisappear",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onDidDisappear;ppMode:proxy"
+}

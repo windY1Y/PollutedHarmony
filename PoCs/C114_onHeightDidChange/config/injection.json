@@ -1,0 +1,7 @@
+{
+  "key": "onHeightDidChange",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onHeightDidChange;ppMode:proxy"
+}

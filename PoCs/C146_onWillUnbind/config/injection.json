@@ -1,0 +1,7 @@
+{
+  "key": "onWillUnbind",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onWillUnbind;ppMode:proxy"
+}

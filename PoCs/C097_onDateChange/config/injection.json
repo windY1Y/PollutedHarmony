@@ -1,0 +1,7 @@
+{
+  "key": "onDateChange",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_PlainText;ppMode:proxy"
+}

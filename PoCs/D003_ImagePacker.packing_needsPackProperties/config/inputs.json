@@ -1,0 +1,82 @@
+[
+  {
+    "caseId": "H48-R1-4ef66301793b6662",
+    "group": "B",
+    "key": "needsPackProperties",
+    "ordinaryInputs": {
+      "rawfile": "ppv3-h48-exif-gps.jpg",
+      "packingOptions": {
+        "format": "image/jpeg",
+        "quality": 92
+      }
+    },
+    "payloadDescription": {
+      "key": "needsPackProperties",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H48-R1-4ef66301793b6662",
+    "group": "P",
+    "key": "needsPackProperties",
+    "ordinaryInputs": {
+      "rawfile": "ppv3-h48-exif-gps.jpg",
+      "packingOptions": {
+        "format": "image/jpeg",
+        "quality": 92
+      }
+    },
+    "payloadDescription": {
+      "key": "needsPackProperties",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H48-R1-4ef66301793b6662",
+    "group": "PT",
+    "key": "needsPackProperties",
+    "ordinaryInputs": {
+      "rawfile": "ppv3-h48-exif-gps.jpg",
+      "packingOptions": {
+        "format": "image/jpeg",
+        "quality": 92
+      }
+    },
+    "payloadDescription": {
+      "key": "needsPackProperties",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H48-R1-4ef66301793b6662",
+    "group": "CLEAN",
+    "key": "needsPackProperties",
+    "ordinaryInputs": {
+      "rawfile": "ppv3-h48-exif-gps.jpg",
+      "packingOptions": {
+        "format": "image/jpeg",
+        "quality": 92
+      }
+    },
+    "payloadDescription": {
+      "key": "needsPackProperties",
+      "value": true
+    }
+  },
+  {
+    "caseId": "H48-R1-4ef66301793b6662",
+    "group": "OWN_SHADOW",
+    "key": "needsPackProperties",
+    "ordinaryInputs": {
+      "rawfile": "ppv3-h48-exif-gps.jpg",
+      "packingOptions": {
+        "format": "image/jpeg",
+        "quality": 92
+      }
+    },
+    "payloadDescription": {
+      "key": "needsPackProperties",
+      "value": true
+    }
+  }
+]

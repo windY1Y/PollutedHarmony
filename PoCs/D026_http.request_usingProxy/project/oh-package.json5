@@ -1,0 +1,8 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "ppv3-project",
+  "version": "1.0.0",
+  "description": "Generated source-only PPV3 harness",
+  "dependencies": {},
+  "devDependencies": {}
+}

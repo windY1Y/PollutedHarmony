@@ -1,0 +1,7 @@
+{
+  "key": "fail",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:fail;ppMode:proxy"
+}

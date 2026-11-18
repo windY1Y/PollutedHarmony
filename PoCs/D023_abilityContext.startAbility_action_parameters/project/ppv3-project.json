@@ -1,0 +1,9 @@
+{
+  "role": "runner",
+  "card": "H20",
+  "bundleName": "org.oh.ppv3.runner",
+  "sdk": 20,
+  "compiled": false,
+  "executed": false,
+  "profile": "/data/oh-testing/v2/05_validation/round3-codegen-20261013/profiles/ordinary.json"
+}

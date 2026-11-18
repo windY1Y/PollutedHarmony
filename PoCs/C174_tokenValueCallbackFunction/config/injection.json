@@ -1,0 +1,7 @@
+{
+  "key": "tokenValueCallbackFunction",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:tokenValueCallbackFunction;ppMode:proxy"
+}

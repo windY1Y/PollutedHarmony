@@ -1,0 +1,7 @@
+{
+  "key": "footer",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:footer;ppMode:proxy"
+}

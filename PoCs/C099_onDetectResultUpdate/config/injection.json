@@ -1,0 +1,7 @@
+{
+  "key": "onDetectResultUpdate",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onDetectResultUpdate;ppMode:proxy"
+}

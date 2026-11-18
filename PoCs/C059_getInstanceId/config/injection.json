@@ -1,0 +1,7 @@
+{
+  "key": "getInstanceId",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:getInstanceId;ppMode:proxy"
+}

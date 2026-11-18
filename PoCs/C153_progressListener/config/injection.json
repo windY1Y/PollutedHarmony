@@ -1,0 +1,7 @@
+{
+  "key": "progressListener",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:progressListener;ppMode:proxy"
+}

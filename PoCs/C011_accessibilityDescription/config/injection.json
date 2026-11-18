@@ -1,0 +1,7 @@
+{
+  "key": "accessibilityDescription",
+  "mode": "object",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:button#style7;ppMode:object"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "shouldDismiss",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:shouldDismiss;ppMode:proxy"
+}

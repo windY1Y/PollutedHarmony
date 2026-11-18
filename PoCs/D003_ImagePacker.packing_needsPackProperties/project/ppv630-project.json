@@ -1,0 +1,40 @@
+{
+  "caseId": "H48-R1-4ef66301793b6662",
+  "includedCaseIds": [
+    "H24-C-61e9dbf4e8260482",
+    "H24-C-0d002734dcc901e8",
+    "H24-C-ccf5f6f0298e2ec6",
+    "H24-C-9cc6c1c325274205",
+    "H24-C-912ed8c4d7fe0a26",
+    "H24-C-a89187f70bf46fa4",
+    "H24-C-2a3e47b152faf558",
+    "H24-C-6351c69d3a244c2f",
+    "H24-C-7f274262b68099de",
+    "H24-C-a41648618c395e37",
+    "H24-C-6a66b44b461f9eef",
+    "H24-C-edf27cb98371431e",
+    "H24-C-ca4775709c9428a5",
+    "H24-C-8fbb458f13322cd9",
+    "H24-C-18f1033b1f0633ac",
+    "H24-C-81f896bbc5722936",
+    "H24-C-e225862d3381b7b2",
+    "H24-C-6d459bd0a38bcd82",
+    "H24-C-3f15906360f460dd",
+    "H24-C-0854dfbf2e0b37e8",
+    "H24-C-580735b870620256",
+    "H48-R1-4ef66301793b6662"
+  ],
+  "card": "H48",
+  "adapter": "image",
+  "role": "runner",
+  "bundleName": "org.oh.ppv3.runner",
+  "compiled": false,
+  "deviceExecuted": false,
+  "bindingReviewRequired": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  }
+}

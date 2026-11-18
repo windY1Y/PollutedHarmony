@@ -1,0 +1,7 @@
+{
+  "key": "onClose",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_HTML;ppMode:proxy"
+}

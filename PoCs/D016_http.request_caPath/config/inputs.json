@@ -1,0 +1,176 @@
+[
+  {
+    "caseId": "H01-C-dd52172d5f9bd75e",
+    "group": "B",
+    "key": "caPath",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CA"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "caPath",
+      "value": "/data/app/el2/100/base/org.oh.ppv3.runner/haps/entry/files/ppv630-ca.crt"
+    }
+  },
+  {
+    "caseId": "H01-C-dd52172d5f9bd75e",
+    "group": "P",
+    "key": "caPath",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CA"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "caPath",
+      "value": "/data/app/el2/100/base/org.oh.ppv3.runner/haps/entry/files/ppv630-ca.crt"
+    }
+  },
+  {
+    "caseId": "H01-C-dd52172d5f9bd75e",
+    "group": "PT",
+    "key": "caPath",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CA"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "caPath",
+      "value": "/data/app/el2/100/base/org.oh.ppv3.runner/haps/entry/files/ppv630-ca.crt"
+    }
+  },
+  {
+    "caseId": "H01-C-dd52172d5f9bd75e",
+    "group": "CLEAN",
+    "key": "caPath",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CA"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "caPath",
+      "value": "/data/app/el2/100/base/org.oh.ppv3.runner/haps/entry/files/ppv630-ca.crt"
+    }
+  },
+  {
+    "group": "B"
+  },
+  {
+    "group": "PT"
+  },
+  {
+    "group": "P"
+  },
+  {
+    "group": "CLEAN"
+  },
+  {
+    "caseId": "H01-C-dd52172d5f9bd75e",
+    "group": "B",
+    "key": "caPath",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CA"
+        },
+        "connectTimeout": 5000,
+        "caPath": "/data/app/el2/100/base/org.oh.ppv3.runner/haps/entry/files/ppv630-ca.crt"
+      }
+    },
+    "payloadDescription": {
+      "key": "caPath",
+      "value": "/data/app/el2/100/base/org.oh.ppv3.runner/haps/entry/files/ppv630-ca.crt"
+    }
+  },
+  {
+    "caseId": "H01-C-dd52172d5f9bd75e",
+    "group": "PT",
+    "key": "caPath",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CA"
+        },
+        "connectTimeout": 5000,
+        "caPath": "/data/app/el2/100/base/org.oh.ppv3.runner/haps/entry/files/ppv630-ca.crt"
+      }
+    },
+    "payloadDescription": {
+      "key": "caPath",
+      "value": "/data/app/el2/100/base/org.oh.ppv3.runner/haps/entry/files/ppv630-ca.crt"
+    }
+  },
+  {
+    "caseId": "H01-C-dd52172d5f9bd75e",
+    "group": "B",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.request",
+      "observed_property": "caPath",
+      "configured_property": "caPath",
+      "inferred_property": "caPath",
+      "arg_path": "arg[1].caPath",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H01-C-dd52172d5f9bd75e",
+    "group": "P",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.request",
+      "observed_property": "caPath",
+      "configured_property": "caPath",
+      "inferred_property": "caPath",
+      "arg_path": "arg[1].caPath",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H01-C-dd52172d5f9bd75e",
+    "group": "PT",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.request",
+      "observed_property": "caPath",
+      "configured_property": "caPath",
+      "inferred_property": "caPath",
+      "arg_path": "arg[1].caPath",
+      "source": "prototype"
+    }
+  },
+  {
+    "caseId": "H01-C-dd52172d5f9bd75e",
+    "group": "CLEAN",
+    "target": {
+      "module": "net.http",
+      "api": "OHOS_NET_HTTP_HttpRequest.request",
+      "observed_property": "caPath",
+      "configured_property": "caPath",
+      "inferred_property": "caPath",
+      "arg_path": "arg[1].caPath",
+      "source": "prototype"
+    }
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "id": "D020",
+  "api": "certManager.init",
+  "property": "spec.digest"
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "caseId": "H37-C-2b2a59621dee09b9",
+    "group": "OWN_SHADOW",
+    "key": "digest",
+    "ordinaryInputs": {
+      "spec": {
+        "purpose": 4,
+        "padding": 2
+      },
+      "message": [
+        80,
+        80,
+        86,
+        51,
+        95,
+        83,
+        73,
+        71
+      ]
+    },
+    "payloadDescription": {
+      "key": "digest",
+      "value": 2
+    }
+  },
+  {
+    "caseId": "H37-C-2b2a59621dee09b9",
+    "group": "PT",
+    "key": "digest",
+    "ordinaryInputs": {
+      "spec": {
+        "purpose": 4,
+        "padding": 2
+      },
+      "message": [
+        80,
+        80,
+        86,
+        51,
+        95,
+        83,
+        73,
+        71
+      ]
+    },
+    "payloadDescription": {
+      "key": "digest",
+      "value": 2
+    }
+  },
+  {
+    "caseId": "H37-C-2b2a59621dee09b9",
+    "group": "PT",
+    "key": "digest",
+    "ordinaryInputs": {
+      "spec": {
+        "purpose": 4,
+        "padding": 2
+      },
+      "message": [
+        80,
+        80,
+        86,
+        51,
+        95,
+        83,
+        73,
+        71
+      ]
+    },
+    "payloadDescription": {
+      "key": "digest",
+      "value": 1
+    }
+  },
+  {
+    "caseId": "H37-C-2b2a59621dee09b9",
+    "group": "B",
+    "key": "digest",
+    "ordinaryInputs": {
+      "spec": {
+        "purpose": 4,
+        "padding": 2
+      },
+      "message": [
+        80,
+        80,
+        86,
+        51,
+        95,
+        83,
+        73,
+        71
+      ]
+    },
+    "payloadDescription": {
+      "key": "digest",
+      "value": 1
+    }
+  }
+]

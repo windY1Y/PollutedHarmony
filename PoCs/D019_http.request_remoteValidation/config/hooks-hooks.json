@@ -1,0 +1,9 @@
+{
+  "before": [
+    ["python3", "/data/oh-testing/v2/05_validation/round3-codegen-20261013/validation630/scripts/network_hook.py", "before"]
+  ],
+  "evidence": [
+    ["python3", "/data/oh-testing/v2/05_validation/round3-codegen-20261013/validation630/scripts/network_hook.py", "evidence"]
+  ],
+  "hookScope": "current authorized diagnostic only; reset and bounded server window; no historical result reuse"
+}

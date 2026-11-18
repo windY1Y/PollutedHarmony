@@ -1,0 +1,7 @@
+{
+  "key": "aboutToResize",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:aboutToResize;ppMode:proxy"
+}

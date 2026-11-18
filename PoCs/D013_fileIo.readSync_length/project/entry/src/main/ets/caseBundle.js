@@ -1,0 +1,35 @@
+import {run as r0,spec as s0} from './cases/H21-C-182cc553656378d7/Test.js';
+import {run as r1,spec as s1} from './cases/H21-C-3742acc587e4f3b3/Test.js';
+import {run as r2,spec as s2} from './cases/H21-C-e8c74d4c6028990b/Test.js';
+import {run as r3,spec as s3} from './cases/H21-C-0b069289138705df/Test.js';
+import {run as r4,spec as s4} from './cases/H21-C-9fc88efeddc19912/Test.js';
+import {run as r5,spec as s5} from './cases/H21-C-1d394ec7fece482b/Test.js';
+import {run as r6,spec as s6} from './cases/H21-C-efa258f20dfece44/Test.js';
+import {run as r7,spec as s7} from './cases/H21-C-08943cb022c0c6fe/Test.js';
+import {run as r8,spec as s8} from './cases/H21-C-8c0d52abb7d0e444/Test.js';
+import {run as r9,spec as s9} from './cases/H21-C-847d7695bf3a1961/Test.js';
+import {run as r10,spec as s10} from './cases/H21-C-a8ff4a80101583af/Test.js';
+import {run as r11,spec as s11} from './cases/H21-C-cf1a2bc1a8d43ec3/Test.js';
+import {run as r12,spec as s12} from './cases/H21-C-35fe7a9f8513020d/Test.js';
+import {run as r13,spec as s13} from './cases/H21-C-180b98992baa663a/Test.js';
+import {run as r14,spec as s14} from './cases/H21-C-796d2c4c8cfdaddb/Test.js';
+import {run as r15,spec as s15} from './cases/H21-C-b2c231236456d325/Test.js';
+import {run as r16,spec as s16} from './cases/H21-C-f600042e3f38f671/Test.js';
+import {run as r17,spec as s17} from './cases/H21-C-8b3ce38cabac1400/Test.js';
+import {run as r18,spec as s18} from './cases/H21-C-6859f5d4f813b87e/Test.js';
+import {run as r19,spec as s19} from './cases/H21-C-2779220d7f965a94/Test.js';
+import {run as r20,spec as s20} from './cases/H21-C-dc6490bf7b05ff6c/Test.js';
+import {run as r21,spec as s21} from './cases/H21-C-72887ed6cd951584/Test.js';
+import {run as r22,spec as s22} from './cases/H21-C-22bee0b80fc0e811/Test.js';
+import {run as r23,spec as s23} from './cases/H21-C-66fc4fcb73cc3718/Test.js';
+import {run as r24,spec as s24} from './cases/H21-C-9b6f97132379b3a9/Test.js';
+import {run as r25,spec as s25} from './cases/H21-C-539e23a6df3cf1a9/Test.js';
+import {run as r26,spec as s26} from './cases/H21-C-589dc91922cd668d/Test.js';
+import {run as r27,spec as s27} from './cases/H21-C-dea5a340300caf3a/Test.js';
+import {run as r28,spec as s28} from './cases/H21-C-9a9b543f1ec69ed0/Test.js';
+import {run as r29,spec as s29} from './cases/H21-C-87c6a74b5bbf5f03/Test.js';
+import {run as r30,spec as s30} from './cases/H21-C-afc57eaed0c33ff2/Test.js';
+import {run as r31,spec as s31} from './cases/H21-C-630746f04724a114/Test.js';
+const entries=[{run:r0,spec:s0},{run:r1,spec:s1},{run:r2,spec:s2},{run:r3,spec:s3},{run:r4,spec:s4},{run:r5,spec:s5},{run:r6,spec:s6},{run:r7,spec:s7},{run:r8,spec:s8},{run:r9,spec:s9},{run:r10,spec:s10},{run:r11,spec:s11},{run:r12,spec:s12},{run:r13,spec:s13},{run:r14,spec:s14},{run:r15,spec:s15},{run:r16,spec:s16},{run:r17,spec:s17},{run:r18,spec:s18},{run:r19,spec:s19},{run:r20,spec:s20},{run:r21,spec:s21},{run:r22,spec:s22},{run:r23,spec:s23},{run:r24,spec:s24},{run:r25,spec:s25},{run:r26,spec:s26},{run:r27,spec:s27},{run:r28,spec:s28},{run:r29,spec:s29},{run:r30,spec:s30},{run:r31,spec:s31}];
+export function getSpec(id){const entry=entries.find(x=>x.spec.caseId===id);if(!entry)throw new Error('CASE_HAP_MISMATCH');return entry.spec;}
+export function run(context,cfg){const entry=entries.find(x=>x.spec.caseId===cfg.caseId);if(!entry)throw new Error('CASE_HAP_MISMATCH');return entry.run(context,cfg);}

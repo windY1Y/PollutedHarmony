@@ -1,0 +1,7 @@
+{
+  "key": "onLazyLoadingFunc_",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onLazyLoadingFunc_;ppMode:proxy"
+}

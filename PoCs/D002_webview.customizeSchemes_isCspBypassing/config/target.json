@@ -1,0 +1,5 @@
+{
+  "id": "D002",
+  "api": "webview.customizeSchemes",
+  "property": "isCspBypassing"
+}

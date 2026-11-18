@@ -1,0 +1,23 @@
+{
+  "before": [
+    [
+      "python3",
+      "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation8/h05-http-fixture-v1/hook.py",
+      "before"
+    ]
+  ],
+  "cleanup": [
+    [
+      "python3",
+      "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation8/h05-http-fixture-v1/hook.py",
+      "cleanup"
+    ]
+  ],
+  "evidence": [
+    [
+      "python3",
+      "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation8/h05-http-fixture-v1/hook.py",
+      "evidence"
+    ]
+  ]
+}

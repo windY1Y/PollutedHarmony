@@ -1,0 +1,7 @@
+{
+  "key": "suffixSymbol",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_UnifiedRecord;ppMode:proxy"
+}

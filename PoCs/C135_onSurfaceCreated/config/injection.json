@@ -1,0 +1,7 @@
+{
+  "key": "onSurfaceCreated",
+  "mode": "string",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:audioEncoderMime;ppMode:string"
+}

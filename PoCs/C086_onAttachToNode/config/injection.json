@@ -1,0 +1,7 @@
+{
+  "key": "onAttachToNode",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onAttachToNode;ppMode:proxy"
+}

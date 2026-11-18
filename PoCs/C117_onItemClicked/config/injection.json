@@ -1,0 +1,7 @@
+{
+  "key": "onItemClicked",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onItemClicked;ppMode:proxy"
+}

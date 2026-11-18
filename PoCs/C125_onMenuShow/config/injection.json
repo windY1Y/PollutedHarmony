@@ -1,0 +1,7 @@
+{
+  "key": "onMenuShow",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onMenuShow;ppMode:proxy"
+}

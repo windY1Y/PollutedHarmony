@@ -1,0 +1,7 @@
+{
+  "key": "onGetChildId",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onGetChildId;ppMode:proxy"
+}

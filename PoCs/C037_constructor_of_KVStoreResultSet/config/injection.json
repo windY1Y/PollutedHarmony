@@ -1,0 +1,7 @@
+{
+  "key": "constructor_of_KVStoreResultSet",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_KVStoreResultSet;ppMode:proxy"
+}

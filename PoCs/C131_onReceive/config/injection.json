@@ -1,0 +1,7 @@
+{
+  "key": "onReceive",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onReceive;ppMode:proxy"
+}

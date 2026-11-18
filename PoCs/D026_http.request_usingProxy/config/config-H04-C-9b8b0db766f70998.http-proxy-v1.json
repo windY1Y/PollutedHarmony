@@ -1,0 +1,127 @@
+{
+  "schema": "oh-pp-config-v1",
+  "card": "H04",
+  "caseId": "H04-C-9b8b0db766f70998",
+  "target": {
+    "module": "net.http",
+    "api": "OHOS_NET_HTTP_HttpRequest.request",
+    "observed_property": "usingProxy",
+    "configured_property": "usingProxy",
+    "inferred_property": "usingProxy",
+    "arg_path": "arg[1].usingProxy",
+    "source": "prototype"
+  },
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "url": "http://10.98.36.180:19481/canary",
+    "options": {
+      "header": {
+        "X-PP-Canary": "PPV630_H04_9B8B_HTTP_CANARY",
+        "Content-Type": "application/json"
+      },
+      "connectTimeout": 5000,
+      "readTimeout": 5000
+    }
+  },
+  "injection": {
+    "key": "usingProxy",
+    "value": {
+      "host": "10.98.36.180",
+      "port": 19480,
+      "exclusionList": []
+    }
+  },
+  "shadow": false,
+  "values": {},
+  "fixtures": {
+    "proxy": {
+      "address": "10.98.36.180",
+      "port": 19480,
+      "protocol": "http-forward-proxy",
+      "evidenceRoot": "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation11/h04-http-proxy-20261022-r1"
+    },
+    "target": {
+      "address": "10.98.36.180",
+      "port": 19481,
+      "path": "/canary",
+      "marker": "PPV630_H04_HTTP_TARGET_19481"
+    }
+  },
+  "permissions": {
+    "declared_api_contracts": [
+      "ohos.permission.INTERNET"
+    ],
+    "manifest_mentions": [
+      "ohos.permission.GET_NETWORK_INFO",
+      "ohos.permission.INTERNET"
+    ],
+    "profile": "ordinary",
+    "actual_grants": null,
+    "requested": [
+      "ohos.permission.INTERNET"
+    ],
+    "note": "Manifest request is not proof of a grant. The runner records current installation identity and configured environment independently."
+  },
+  "conditions": [
+    "Fixed target URL and exact per-run canary in every group",
+    "Direct route is calibrated on 19481 and explicit proxy route is calibrated on 19480 before the matrix",
+    "Offline proxy 19479 is refused, establishing that proxy reachability is not universally available",
+    "One target-only descriptor is injected on Object.prototype; no other input changes"
+  ],
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "oracle": {
+    "behavior_prediction": "A prototype-provided usingProxy value may silently reroute the same fixed target URL through the configured HTTP proxy.",
+    "security_success": "PT, but not B/P/CLEAN, sends the exact run-bound canary to the controlled proxy and the target receives the same canary with receivedVia=http-forward-proxy-19480.",
+    "collect": "Exact-canary proxy request line, absolute URI, forwarding status, target arrival, receivedVia, API response, run identity and device identity.",
+    "falsifying_result": "No proxy event for PT, direct target arrival for PT, unstable route, missing canary, or proxy activity without target forwarding.",
+    "invalid_experiment_conditions": [
+      "Target property is not read",
+      "Ordinary options already own usingProxy",
+      "Proxy or target canary is missing or differs",
+      "Control groups do not use the same URL, headers and device",
+      "API success alone is used as the security oracle"
+    ]
+  },
+  "review": {
+    "callsiteAndOverload": true,
+    "injectionSemantics": true,
+    "fixedArguments": true,
+    "environment": true,
+    "oracle": true
+  },
+  "reviewEvidence": {
+    "callsiteAndOverload": "The representative HAP packages the exact H04-C-9b8b generic request case; options are passed as arg[1] to request.request after cloning.",
+    "injectionSemantics": "PT installs exactly one enumerable prototype getter usingProxy with a proxy object. B/P/CLEAN install no target descriptor. OWN_SHADOW installs own false on the receiver before prototype injection.",
+    "fixedArguments": "Every group uses the same target URL, request headers except the run-bound canary suffix, proxy endpoint, timeouts and device.",
+    "environment": "Fresh HAP installation and fresh process per cell; device probe records boot ID, UID, Token ID, APL and HAP hash.",
+    "oracle": "A continuation-owned HTTP proxy and target independently record exact-canary route evidence. Getter reads or API success alone are not harm."
+  },
+  "scope": "continuation11 fresh HTTP request usingProxy route-rewrite validation",
+  "execution": {
+    "compiled": true,
+    "executed": false
+  },
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ]
+}

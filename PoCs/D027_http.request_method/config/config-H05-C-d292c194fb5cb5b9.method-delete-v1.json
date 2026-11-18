@@ -1,0 +1,88 @@
+{
+  "afterTimeoutMs": 5000,
+  "card": "H05",
+  "caseId": "H05-C-d292c194fb5cb5b9",
+  "environment": {
+    "ACL": null,
+    "APL": null,
+    "HAP_hash": null,
+    "TokenID": null,
+    "UID": null,
+    "image_hashes": null,
+    "runtime_grants": null,
+    "sandbox": null,
+    "server_state": null,
+    "user": null
+  },
+  "fixtures": {
+    "methodObserver": {
+      "address": "10.98.36.180",
+      "evidenceRoot": "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation12/method-observer-delete",
+      "path": "/verb",
+      "port": 20620
+    }
+  },
+  "group": "B",
+  "injection": {
+    "key": "method",
+    "value": "DELETE"
+  },
+  "ordinary": {
+    "options": {
+      "connectTimeout": 5000,
+      "header": {
+        "X-PP-Canary": "PPV_H05_METHOD_DELETE_C12"
+      },
+      "readTimeout": 5000
+    },
+    "url": "http://10.98.36.180:20620/verb"
+  },
+  "permissions": {
+    "declared_api_contracts": [
+      "ohos.permission.INTERNET"
+    ],
+    "profile": "ordinary",
+    "requested": [
+      "ohos.permission.INTERNET"
+    ]
+  },
+  "receiverBinding": {
+    "argument": 1,
+    "kind": "argument",
+    "path": []
+  },
+  "repetition": 1,
+  "repetitions": 3,
+  "review": {
+    "callsiteAndOverload": true,
+    "environment": true,
+    "fixedArguments": true,
+    "injectionSemantics": true,
+    "oracle": true
+  },
+  "runId": "UNBOUND",
+  "schema": "oh-pp-config-v1",
+  "scope": "continuation12 fresh single-property arg[1].method DELETE validation",
+  "shadow": "GET",
+  "shadowValue": "GET",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "target": {
+    "api": "OHOS_NET_HTTP_HttpRequest.request",
+    "arg_path": "arg[1].method",
+    "configured_property": "method",
+    "inferred_property": "method",
+    "module": "net.http",
+    "observed_property": "method",
+    "source": "prototype"
+  },
+  "timeoutMs": 25000,
+  "values": {
+    "inj0": "DELETE"
+  }
+}

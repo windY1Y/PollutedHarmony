@@ -1,0 +1,7 @@
+{
+  "key": "suffixSymbolOptions",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_Video;ppMode:proxy"
+}

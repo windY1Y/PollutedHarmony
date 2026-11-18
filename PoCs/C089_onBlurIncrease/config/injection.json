@@ -1,0 +1,7 @@
+{
+  "key": "onBlurIncrease",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onBlurIncrease;ppMode:proxy"
+}

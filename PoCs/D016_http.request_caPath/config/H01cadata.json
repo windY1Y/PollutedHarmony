@@ -1,0 +1,50 @@
+{
+ "caseId": "H01-C-fa703c21ef035363",
+ "card": "H01",
+ "timeoutMs": 20000,
+ "afterTimeoutMs": 8000,
+ "ordinary": {
+  "url": "https://10.98.36.180:18446/tls",
+  "options": {
+   "header": {
+    "X-PP-Canary": "PPV3_CADATA"
+   },
+   "connectTimeout": 5000
+  }
+ },
+ "fixtures": {},
+ "resources": {},
+ "values": {
+  "inj0": "-----BEGIN CERTIFICATE-----\nMIIDDTCCAfWgAwIBAgIUBvX6r5VEfSiw2e6FvNR06XFDZ4EwDQYJKoZIhvcNAQEL\nBQAwFjEUMBIGA1UEAwwLUFBWMy1MQUItQ0EwHhcNMjYxMDEzMTA0NzQ2WhcNMjYx\nMTEyMTA0NzQ2WjAWMRQwEgYDVQQDDAtQUFYzLUxBQi1DQTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAM+sOFfB4FnK5gXx+XXHmXyfp8NS0p0uEnFJDooW\nMch+7/x7ksXtnJJQV97dKd2gMKrGJHazNLQI+kamMDcI72NP20nkKUD2o7XULzAl\nps1tEt+DAOg158tx5u5hLbX3MbLXcryLdR7RmsYLJHqIGZBG2jGQsraFrgYtu+yQ\nZbZ4QbSxBp4Ir4Os5FSaGKO5hXtwoWT+2aqco0gt3FWIWvgupQTfGA+5ogGvCxp/\nhR9R5KbF6biJ3FfkAPWB4YLPgE7dHWhwtutY0JpVRFqbbQ2TpA+Eee+SbpbOdzFR\nZ8S8SlQ7CSbwFliVRFa2b5PPnih3w/ivtDRT88/x+6lQptECAwEAAaNTMFEwHQYD\nVR0OBBYEFH9FC9LPKZoDsablYfAcJvqNlkM4MB8GA1UdIwQYMBaAFH9FC9LPKZoD\nsablYfAcJvqNlkM4MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB\nAEDxqbozql0lPqll4h3GFmL3666SOG945cd4yXnhto44srm1iI0euBVyrEIMHnI7\nEMNOFOCfoZR2leI4DPj48bzfv7GsRTSqq9N+1o0UNgeLr43CrG8htCBkMdfi28uQ\n8NTIulzdqkSYs+awQKoC4pOBIeTI2ER2s0PYybIjEBRQ2FVJocZI6xuE9EA0pkfe\n6taaV0yhYCuX9t0QWCWLueretDydx4hx6n4+AHS2dIKlvfrDWFcD3fT4Ir8q9wTb\ncASDA3MKaD0pkPh8+EiOaxiQWwzJ85Xmy8kNvwAshisiYC98in29bdU35WrxCEX3\ngQDZDF7fP7fP/4V8yY0ajKk=\n-----END CERTIFICATE-----\n"
+ },
+ "injection": {
+  "key": "caData",
+  "value": "-----BEGIN CERTIFICATE-----\nMIIDDTCCAfWgAwIBAgIUBvX6r5VEfSiw2e6FvNR06XFDZ4EwDQYJKoZIhvcNAQEL\nBQAwFjEUMBIGA1UEAwwLUFBWMy1MQUItQ0EwHhcNMjYxMDEzMTA0NzQ2WhcNMjYx\nMTEyMTA0NzQ2WjAWMRQwEgYDVQQDDAtQUFYzLUxBQi1DQTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAM+sOFfB4FnK5gXx+XXHmXyfp8NS0p0uEnFJDooW\nMch+7/x7ksXtnJJQV97dKd2gMKrGJHazNLQI+kamMDcI72NP20nkKUD2o7XULzAl\nps1tEt+DAOg158tx5u5hLbX3MbLXcryLdR7RmsYLJHqIGZBG2jGQsraFrgYtu+yQ\nZbZ4QbSxBp4Ir4Os5FSaGKO5hXtwoWT+2aqco0gt3FWIWvgupQTfGA+5ogGvCxp/\nhR9R5KbF6biJ3FfkAPWB4YLPgE7dHWhwtutY0JpVRFqbbQ2TpA+Eee+SbpbOdzFR\nZ8S8SlQ7CSbwFliVRFa2b5PPnih3w/ivtDRT88/x+6lQptECAwEAAaNTMFEwHQYD\nVR0OBBYEFH9FC9LPKZoDsablYfAcJvqNlkM4MB8GA1UdIwQYMBaAFH9FC9LPKZoD\nsablYfAcJvqNlkM4MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB\nAEDxqbozql0lPqll4h3GFmL3666SOG945cd4yXnhto44srm1iI0euBVyrEIMHnI7\nEMNOFOCfoZR2leI4DPj48bzfv7GsRTSqq9N+1o0UNgeLr43CrG8htCBkMdfi28uQ\n8NTIulzdqkSYs+awQKoC4pOBIeTI2ER2s0PYybIjEBRQ2FVJocZI6xuE9EA0pkfe\n6taaV0yhYCuX9t0QWCWLueretDydx4hx6n4+AHS2dIKlvfrDWFcD3fT4Ir8q9wTb\ncASDA3MKaD0pkPh8+EiOaxiQWwzJ85Xmy8kNvwAshisiYC98in29bdU35WrxCEX3\ngQDZDF7fP7fP/4V8yY0ajKk=\n-----END CERTIFICATE-----\n"
+ },
+ "shadow": null,
+ "environment": {
+  "ACL": "PPV630_H29-C-52ba990f664cdfd2_environment.ACL",
+  "APL": "normal",
+  "HAP_hash": null,
+  "TokenID": 537644708,
+  "UID": 20010039,
+  "bundleEvidence": "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation15/h29/runs/20261029-h29-cont15-direct-docs-20261029-160455-311750814/provision/bundle-evidence.txt",
+  "caseId": "H29-C-52ba990f664cdfd2",
+  "continuation": "continuation15-h29-picker",
+  "guestBootId": "1c63052e-fc53-4831-9898-23493f4adf3a",
+  "image_hashes": {
+   "Image": "65e5854bf3b3018518d212128f1491311e0874e2fd8a0f67c8c3335b972d16a1",
+   "SHA256SUMS": "7c1d8ec92c32686e22b31067e474083d1110f9d0a222958ae351cde3e5cc67e3",
+   "ramdisk.img": "8e9b5b2f323033ef545e4a2c2280e247286a85ce1af448003f036682155ef0b9",
+   "system.img": "23d542410dd004ac6e658f64c6f88cb98afe5ef80645b5eb918965e4c6279e03",
+   "updater.img": "d93628f9255cc2eb6a6e12d288478097bb838067087ee1b80551b9445c8eb829",
+   "userdata.img": "0118eb6bd98b9b6950ed0922c2c6f5df3fc313cbce4d5ed4da337824dd7b6d02",
+   "vendor.img": "8ab136d5ecbcedb4df3f2d30e13448f6793f5a5e91fa0b8e2e1bd0eb1cb9f432"
+  },
+  "runId": "20261029-h29-cont15-direct-docs-20261029-160455-311750814",
+  "runtime_grants": "PPV630_H29-C-52ba990f664cdfd2_environment.runtime_grants",
+  "sandbox": "PPV630_H29-C-52ba990f664cdfd2_environment.sandbox",
+  "server_state": "PPV630_H29-C-52ba990f664cdfd2_environment.server_state",
+  "user": "PPV630_H29-C-52ba990f664cdfd2_environment.user"
+ }
+}

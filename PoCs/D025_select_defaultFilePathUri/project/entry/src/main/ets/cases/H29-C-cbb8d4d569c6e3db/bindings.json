@@ -1,0 +1,104 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H29-C-cbb8d4d569c6e3db",
+  "card": "H29",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "options": {},
+    "pickerKind": "document"
+  },
+  "values": {
+    "inj0": ".txt"
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 1,
+    "path": [
+      "parameters"
+    ]
+  },
+  "fixtures": {
+    "unselectedBUri": "file://org.oh.ppv630.resourceowner/data/storage/el2/base/haps/entry/files/ppv630-unselected-b.txt"
+  },
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [],
+    "requested": [],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {},
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H29-C-cbb8d4d569c6e3db.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "string",
+      "declarations": [
+        {
+          "field": "fileSuffixChoices",
+          "snapshot": "evidence/sources/a0f3a0434434af0b8e6ee015a854bf0f03d0491cc5c89dda786273cf6fa87e91.ts",
+          "sha256": "a0f3a0434434af0b8e6ee015a854bf0f03d0491cc5c89dda786273cf6fa87e91",
+          "line": 850,
+          "declaration": "fileSuffixChoices?: Array<string>;"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified.",
+  "provisionedResourceEvidence": {
+    "artifact": "reports/resource-owner.json",
+    "sha256": "20e9fc3d7402e55d0fb57893085a2e01cf59adab99d6a7a1ba9bf864908f59fc",
+    "ownerBundle": "org.oh.ppv630.resourceowner",
+    "callerEntitledToGroup": false,
+    "scope": "New controlled lab fixtures; not original production data. Picker UI selection and target caller denial still require execution."
+  }
+}

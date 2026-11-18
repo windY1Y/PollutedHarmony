@@ -1,0 +1,7 @@
+{
+  "key": "onOffsetChange",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onOffsetChange;ppMode:proxy"
+}

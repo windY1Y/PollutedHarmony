@@ -1,0 +1,7 @@
+{
+  "key": "backgroundEffect",
+  "mode": "proxy",
+  "path": "inactiveColor.getColorSpace",
+  "injections": null,
+  "testArgs": "ppKey:backgroundEffect;ppMode:proxy"
+}

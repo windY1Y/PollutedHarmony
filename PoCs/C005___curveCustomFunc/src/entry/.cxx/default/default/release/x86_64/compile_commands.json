@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/.cxx/default/default/release/x86_64",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=x86_64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -Dneuralnetworkcoretest_EXPORTS -I/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp -I/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/neuralnetworkcoretest.dir/ExportsApiTest.cpp.o -c /home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/ExportsApiTest.cpp",
+  "file": "/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/ExportsApiTest.cpp",
+  "output": "CMakeFiles/neuralnetworkcoretest.dir/ExportsApiTest.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/.cxx/default/default/release/x86_64",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=x86_64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -Dneuralnetworkcoretest_EXPORTS -I/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp -I/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/neuralnetworkcoretest.dir/NeuralNetworkCoreTest.cpp.o -c /home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/NeuralNetworkCoreTest.cpp",
+  "file": "/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/NeuralNetworkCoreTest.cpp",
+  "output": "CMakeFiles/neuralnetworkcoretest.dir/NeuralNetworkCoreTest.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/.cxx/default/default/release/x86_64",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=x86_64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -Dneuralnetworkcoretest_EXPORTS -I/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp -I/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/neuralnetworkcoretest.dir/NeuralNetworkRuntimeTest.cpp.o -c /home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/NeuralNetworkRuntimeTest.cpp",
+  "file": "/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/NeuralNetworkRuntimeTest.cpp",
+  "output": "CMakeFiles/neuralnetworkcoretest.dir/NeuralNetworkRuntimeTest.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/.cxx/default/default/release/x86_64",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=x86_64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -Dneuralnetworkcoretest_EXPORTS -I/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp -I/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/neuralnetworkcoretest.dir/NeuralNetworkRuntimeTypeTest.cpp.o -c /home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/NeuralNetworkRuntimeTypeTest.cpp",
+  "file": "/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/NeuralNetworkRuntimeTypeTest.cpp",
+  "output": "CMakeFiles/neuralnetworkcoretest.dir/NeuralNetworkRuntimeTypeTest.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/.cxx/default/default/release/x86_64",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=x86_64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -Dneuralnetworkcoretest_EXPORTS -I/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp -I/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/neuralnetworkcoretest.dir/NeuralNetworkTensorTypeTest.cpp.o -c /home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/NeuralNetworkTensorTypeTest.cpp",
+  "file": "/home/openharmony/test/xts/acts/ai/neural_network_runtime/neural_network_core/entry/src/main/cpp/NeuralNetworkTensorTypeTest.cpp",
+  "output": "CMakeFiles/neuralnetworkcoretest.dir/NeuralNetworkTensorTypeTest.cpp.o"
+}
+]

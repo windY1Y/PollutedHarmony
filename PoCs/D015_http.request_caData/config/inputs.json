@@ -1,0 +1,104 @@
+[
+  {
+    "group": "B"
+  },
+  {
+    "group": "P"
+  },
+  {
+    "group": "PT"
+  },
+  {
+    "group": "CLEAN"
+  },
+  {
+    "caseId": "H01-C-fa703c21ef035363",
+    "group": "B",
+    "key": "caData",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CADATA"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "caData",
+      "value": "-----BEGIN CERTIFICATE-----\nMIIDDTCCAfWgAwIBAgIUBvX6r5VEfSiw2e6FvNR06XFDZ4EwDQYJKoZIhvcNAQEL\nBQAwFjEUMBIGA1UEAwwLUFBWMy1MQUItQ0EwHhcNMjYxMDEzMTA0NzQ2WhcNMjYx\nMTEyMTA0NzQ2WjAWMRQwEgYDVQQDDAtQUFYzLUxBQi1DQTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAM+sOFfB4FnK5gXx+XXHmXyfp8NS0p0uEnFJDooW\nMch+7/x7ksXtnJJQV97dKd2gMKrGJHazNLQI+kamMDcI72NP20nkKUD2o7XULzAl\nps1tEt+DAOg158tx5u5hLbX3MbLXcryLdR7RmsYLJHqIGZBG2jGQsraFrgYtu+yQ\nZbZ4QbSxBp4Ir4Os5FSaGKO5hXtwoWT+2aqco0gt3FWIWvgupQTfGA+5ogGvCxp/\nhR9R5KbF6biJ3FfkAPWB4YLPgE7dHWhwtutY0JpVRFqbbQ2TpA+Eee+SbpbOdzFR\nZ8S8SlQ7CSbwFliVRFa2b5PPnih3w/ivtDRT88/x+6lQptECAwEAAaNTMFEwHQYD\nVR0OBBYEFH9FC9LPKZoDsablYfAcJvqNlkM4MB8GA1UdIwQYMBaAFH9FC9LPKZoD\nsablYfAcJvqNlkM4MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB\nAEDxqbozql0lPqll4h3GFmL3666SOG945cd4yXnhto44srm1iI0euBVyrEIMHnI7\nEMNOFOCfoZR2leI4DPj48bzfv7GsRTSqq9N+1o0UNgeLr43CrG8htCBkMdfi28uQ\n8NTIulzdqkSYs+awQKoC4pOBIeTI2ER2s0PYybIjEBRQ2FVJocZI6xuE9EA0pkfe\n6taaV0yhYCuX9t0QWCWLueretDydx4hx6n4+AHS2dIKlvfrDWFcD3fT4Ir8q9wTb\ncASDA3MKaD0pkPh8+EiOaxiQWwzJ85Xmy8kNvwAshisiYC98in29bdU35WrxCEX3\ngQDZDF7fP7fP/4V8yY0ajKk=\n-----END CERTIFICATE-----\n"
+    }
+  },
+  {
+    "caseId": "H01-C-fa703c21ef035363",
+    "group": "P",
+    "key": "caData",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CADATA"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "caData",
+      "value": "-----BEGIN CERTIFICATE-----\nMIIDDTCCAfWgAwIBAgIUBvX6r5VEfSiw2e6FvNR06XFDZ4EwDQYJKoZIhvcNAQEL\nBQAwFjEUMBIGA1UEAwwLUFBWMy1MQUItQ0EwHhcNMjYxMDEzMTA0NzQ2WhcNMjYx\nMTEyMTA0NzQ2WjAWMRQwEgYDVQQDDAtQUFYzLUxBQi1DQTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAM+sOFfB4FnK5gXx+XXHmXyfp8NS0p0uEnFJDooW\nMch+7/x7ksXtnJJQV97dKd2gMKrGJHazNLQI+kamMDcI72NP20nkKUD2o7XULzAl\nps1tEt+DAOg158tx5u5hLbX3MbLXcryLdR7RmsYLJHqIGZBG2jGQsraFrgYtu+yQ\nZbZ4QbSxBp4Ir4Os5FSaGKO5hXtwoWT+2aqco0gt3FWIWvgupQTfGA+5ogGvCxp/\nhR9R5KbF6biJ3FfkAPWB4YLPgE7dHWhwtutY0JpVRFqbbQ2TpA+Eee+SbpbOdzFR\nZ8S8SlQ7CSbwFliVRFa2b5PPnih3w/ivtDRT88/x+6lQptECAwEAAaNTMFEwHQYD\nVR0OBBYEFH9FC9LPKZoDsablYfAcJvqNlkM4MB8GA1UdIwQYMBaAFH9FC9LPKZoD\nsablYfAcJvqNlkM4MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB\nAEDxqbozql0lPqll4h3GFmL3666SOG945cd4yXnhto44srm1iI0euBVyrEIMHnI7\nEMNOFOCfoZR2leI4DPj48bzfv7GsRTSqq9N+1o0UNgeLr43CrG8htCBkMdfi28uQ\n8NTIulzdqkSYs+awQKoC4pOBIeTI2ER2s0PYybIjEBRQ2FVJocZI6xuE9EA0pkfe\n6taaV0yhYCuX9t0QWCWLueretDydx4hx6n4+AHS2dIKlvfrDWFcD3fT4Ir8q9wTb\ncASDA3MKaD0pkPh8+EiOaxiQWwzJ85Xmy8kNvwAshisiYC98in29bdU35WrxCEX3\ngQDZDF7fP7fP/4V8yY0ajKk=\n-----END CERTIFICATE-----\n"
+    }
+  },
+  {
+    "caseId": "H01-C-fa703c21ef035363",
+    "group": "PT",
+    "key": "caData",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CADATA"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "caData",
+      "value": "-----BEGIN CERTIFICATE-----\nMIIDDTCCAfWgAwIBAgIUBvX6r5VEfSiw2e6FvNR06XFDZ4EwDQYJKoZIhvcNAQEL\nBQAwFjEUMBIGA1UEAwwLUFBWMy1MQUItQ0EwHhcNMjYxMDEzMTA0NzQ2WhcNMjYx\nMTEyMTA0NzQ2WjAWMRQwEgYDVQQDDAtQUFYzLUxBQi1DQTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAM+sOFfB4FnK5gXx+XXHmXyfp8NS0p0uEnFJDooW\nMch+7/x7ksXtnJJQV97dKd2gMKrGJHazNLQI+kamMDcI72NP20nkKUD2o7XULzAl\nps1tEt+DAOg158tx5u5hLbX3MbLXcryLdR7RmsYLJHqIGZBG2jGQsraFrgYtu+yQ\nZbZ4QbSxBp4Ir4Os5FSaGKO5hXtwoWT+2aqco0gt3FWIWvgupQTfGA+5ogGvCxp/\nhR9R5KbF6biJ3FfkAPWB4YLPgE7dHWhwtutY0JpVRFqbbQ2TpA+Eee+SbpbOdzFR\nZ8S8SlQ7CSbwFliVRFa2b5PPnih3w/ivtDRT88/x+6lQptECAwEAAaNTMFEwHQYD\nVR0OBBYEFH9FC9LPKZoDsablYfAcJvqNlkM4MB8GA1UdIwQYMBaAFH9FC9LPKZoD\nsablYfAcJvqNlkM4MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB\nAEDxqbozql0lPqll4h3GFmL3666SOG945cd4yXnhto44srm1iI0euBVyrEIMHnI7\nEMNOFOCfoZR2leI4DPj48bzfv7GsRTSqq9N+1o0UNgeLr43CrG8htCBkMdfi28uQ\n8NTIulzdqkSYs+awQKoC4pOBIeTI2ER2s0PYybIjEBRQ2FVJocZI6xuE9EA0pkfe\n6taaV0yhYCuX9t0QWCWLueretDydx4hx6n4+AHS2dIKlvfrDWFcD3fT4Ir8q9wTb\ncASDA3MKaD0pkPh8+EiOaxiQWwzJ85Xmy8kNvwAshisiYC98in29bdU35WrxCEX3\ngQDZDF7fP7fP/4V8yY0ajKk=\n-----END CERTIFICATE-----\n"
+    }
+  },
+  {
+    "caseId": "H01-C-fa703c21ef035363",
+    "group": "CLEAN",
+    "key": "caData",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CADATA"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "caData",
+      "value": "-----BEGIN CERTIFICATE-----\nMIIDDTCCAfWgAwIBAgIUBvX6r5VEfSiw2e6FvNR06XFDZ4EwDQYJKoZIhvcNAQEL\nBQAwFjEUMBIGA1UEAwwLUFBWMy1MQUItQ0EwHhcNMjYxMDEzMTA0NzQ2WhcNMjYx\nMTEyMTA0NzQ2WjAWMRQwEgYDVQQDDAtQUFYzLUxBQi1DQTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAM+sOFfB4FnK5gXx+XXHmXyfp8NS0p0uEnFJDooW\nMch+7/x7ksXtnJJQV97dKd2gMKrGJHazNLQI+kamMDcI72NP20nkKUD2o7XULzAl\nps1tEt+DAOg158tx5u5hLbX3MbLXcryLdR7RmsYLJHqIGZBG2jGQsraFrgYtu+yQ\nZbZ4QbSxBp4Ir4Os5FSaGKO5hXtwoWT+2aqco0gt3FWIWvgupQTfGA+5ogGvCxp/\nhR9R5KbF6biJ3FfkAPWB4YLPgE7dHWhwtutY0JpVRFqbbQ2TpA+Eee+SbpbOdzFR\nZ8S8SlQ7CSbwFliVRFa2b5PPnih3w/ivtDRT88/x+6lQptECAwEAAaNTMFEwHQYD\nVR0OBBYEFH9FC9LPKZoDsablYfAcJvqNlkM4MB8GA1UdIwQYMBaAFH9FC9LPKZoD\nsablYfAcJvqNlkM4MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB\nAEDxqbozql0lPqll4h3GFmL3666SOG945cd4yXnhto44srm1iI0euBVyrEIMHnI7\nEMNOFOCfoZR2leI4DPj48bzfv7GsRTSqq9N+1o0UNgeLr43CrG8htCBkMdfi28uQ\n8NTIulzdqkSYs+awQKoC4pOBIeTI2ER2s0PYybIjEBRQ2FVJocZI6xuE9EA0pkfe\n6taaV0yhYCuX9t0QWCWLueretDydx4hx6n4+AHS2dIKlvfrDWFcD3fT4Ir8q9wTb\ncASDA3MKaD0pkPh8+EiOaxiQWwzJ85Xmy8kNvwAshisiYC98in29bdU35WrxCEX3\ngQDZDF7fP7fP/4V8yY0ajKk=\n-----END CERTIFICATE-----\n"
+    }
+  },
+  {
+    "caseId": "H01-C-fa703c21ef035363",
+    "group": "OWN_SHADOW",
+    "key": "caData",
+    "ordinaryInputs": {
+      "url": "https://10.98.36.180:18446/tls",
+      "options": {
+        "header": {
+          "X-PP-Canary": "PPV3_CADATA"
+        },
+        "connectTimeout": 5000
+      }
+    },
+    "payloadDescription": {
+      "key": "caData",
+      "value": "-----BEGIN CERTIFICATE-----\nMIIDDTCCAfWgAwIBAgIUBvX6r5VEfSiw2e6FvNR06XFDZ4EwDQYJKoZIhvcNAQEL\nBQAwFjEUMBIGA1UEAwwLUFBWMy1MQUItQ0EwHhcNMjYxMDEzMTA0NzQ2WhcNMjYx\nMTEyMTA0NzQ2WjAWMRQwEgYDVQQDDAtQUFYzLUxBQi1DQTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAM+sOFfB4FnK5gXx+XXHmXyfp8NS0p0uEnFJDooW\nMch+7/x7ksXtnJJQV97dKd2gMKrGJHazNLQI+kamMDcI72NP20nkKUD2o7XULzAl\nps1tEt+DAOg158tx5u5hLbX3MbLXcryLdR7RmsYLJHqIGZBG2jGQsraFrgYtu+yQ\nZbZ4QbSxBp4Ir4Os5FSaGKO5hXtwoWT+2aqco0gt3FWIWvgupQTfGA+5ogGvCxp/\nhR9R5KbF6biJ3FfkAPWB4YLPgE7dHWhwtutY0JpVRFqbbQ2TpA+Eee+SbpbOdzFR\nZ8S8SlQ7CSbwFliVRFa2b5PPnih3w/ivtDRT88/x+6lQptECAwEAAaNTMFEwHQYD\nVR0OBBYEFH9FC9LPKZoDsablYfAcJvqNlkM4MB8GA1UdIwQYMBaAFH9FC9LPKZoD\nsablYfAcJvqNlkM4MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB\nAEDxqbozql0lPqll4h3GFmL3666SOG945cd4yXnhto44srm1iI0euBVyrEIMHnI7\nEMNOFOCfoZR2leI4DPj48bzfv7GsRTSqq9N+1o0UNgeLr43CrG8htCBkMdfi28uQ\n8NTIulzdqkSYs+awQKoC4pOBIeTI2ER2s0PYybIjEBRQ2FVJocZI6xuE9EA0pkfe\n6taaV0yhYCuX9t0QWCWLueretDydx4hx6n4+AHS2dIKlvfrDWFcD3fT4Ir8q9wTb\ncASDA3MKaD0pkPh8+EiOaxiQWwzJ85Xmy8kNvwAshisiYC98in29bdU35WrxCEX3\ngQDZDF7fP7fP/4V8yY0ajKk=\n-----END CERTIFICATE-----\n"
+    }
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "afterTimeoutMs": 5000,
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified.",
+  "bindingRevision": "static-v1",
+  "card": "H29",
+  "caseId": "H29-C-52ba990f664cdfd2",
+  "continuation7Dynamic": true,
+  "environment": {
+    "ACL": "PPV630_H29-C-52ba990f664cdfd2_environment.ACL",
+    "APL": "normal",
+    "HAP_hash": "1c3ac6fc7559aa71935723d9c0dce84452880eacce43563d2d459a0244370646",
+    "TokenID": 537644708,
+    "UID": 20010039,
+    "bundleEvidence": "/data/oh-testing/v2/05_validation/manual-retests/20261019/phase2/continuation13/h29-picker/config/device-probe.json",
+    "caseId": "H29-C-52ba990f664cdfd2",
+    "continuation": "continuation13",
+    "guestBootId": "1c63052e-fc53-4831-9898-23493f4adf3a",
+    "image_hashes": {
+      "Image": "65e5854bf3b3018518d212128f1491311e0874e2fd8a0f67c8c3335b972d16a1",
+      "SHA256SUMS": "7c1d8ec92c32686e22b31067e474083d1110f9d0a222958ae351cde3e5cc67e3",
+      "ramdisk.img": "8e9b5b2f323033ef545e4a2c2280e247286a85ce1af448003f036682155ef0b9",
+      "system.img": "23d542410dd004ac6e658f64c6f88cb98afe5ef80645b5eb918965e4c6279e03",
+      "updater.img": "d93628f9255cc2eb6a6e12d288478097bb838067087ee1b80551b9445c8eb829",
+      "userdata.img": "0118eb6bd98b9b6950ed0922c2c6f5df3fc313cbce4d5ed4da337824dd7b6d02",
+      "vendor.img": "8ab136d5ecbcedb4df3f2d30e13448f6793f5a5e91fa0b8e2e1bd0eb1cb9f432"
+    },
+    "runId": "20261028-h29-cont13",
+    "runtime_grants": "PPV630_H29-C-52ba990f664cdfd2_environment.runtime_grants",
+    "sandbox": "PPV630_H29-C-52ba990f664cdfd2_environment.sandbox",
+    "server_state": "PPV630_H29-C-52ba990f664cdfd2_environment.server_state",
+    "user": "PPV630_H29-C-52ba990f664cdfd2_environment.user"
+  },
+  "executionContext": "ability_process",
+  "fixtures": {
+    "unselectedBUri": "file://org.oh.ppv630.resourceowner/data/storage/el2/base/haps/entry/files/ppv630-unselected-b.txt"
+  },
+  "group": "B",
+  "oracleContract": "../../oracle-contracts/H29-C-52ba990f664cdfd2.json",
+  "ordinary": {
+    "options": {},
+    "pickerKind": "document"
+  },
+  "permissions": {
+    "actual_grants": "PPV630_H29-C-52ba990f664cdfd2_permissions.actual_grants",
+    "manifest_mentions": [],
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants.",
+    "requested": []
+  },
+  "proposedFixtureValuesNotValidated": false,
+  "provisionedResourceEvidence": {
+    "artifact": "reports/resource-owner.json",
+    "callerEntitledToGroup": false,
+    "ownerBundle": "org.oh.ppv630.resourceowner",
+    "scope": "New controlled lab fixtures; not original production data. Picker UI selection and target caller denial still require execution.",
+    "sha256": "20e9fc3d7402e55d0fb57893085a2e01cf59adab99d6a7a1ba9bf864908f59fc"
+  },
+  "receiverBinding": {
+    "argument": 1,
+    "kind": "argument",
+    "path": [
+      "parameters"
+    ]
+  },
+  "repetition": 1,
+  "repetitions": 3,
+  "resetRequirements": {
+    "freshProcess": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true,
+    "sameResourceInitialState": true
+  },
+  "review": {
+    "callsiteAndOverload": true,
+    "environment": true,
+    "fixedArguments": true,
+    "injectionSemantics": true,
+    "oracle": true
+  },
+  "runId": "UNBOUND",
+  "schema": "oh-pp-validation630-bindings-v1",
+  "shadowValue": "PPV630_H29-C-52ba990f664cdfd2_shadowValue",
+  "sourceReview": {
+    "basis": "user statement; not parameter, compilation, or runtime validation",
+    "hypothesisManuallyReviewed": true
+  },
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN",
+    "OWN_SHADOW"
+  ],
+  "timeoutMs": 20000,
+  "valueBindingEvidence": {
+    "inj0": {
+      "declarations": [
+        {
+          "declaration": "defaultFilePathUri?: string;",
+          "field": "defaultFilePathUri",
+          "line": 622,
+          "sha256": "a0f3a0434434af0b8e6ee015a854bf0f03d0491cc5c89dda786273cf6fa87e91",
+          "snapshot": "evidence/sources/a0f3a0434434af0b8e6ee015a854bf0f03d0491cc5c89dda786273cf6fa87e91.ts"
+        },
+        {
+          "declaration": "defaultFilePathUri?: string;",
+          "field": "defaultFilePathUri",
+          "line": 827,
+          "sha256": "a0f3a0434434af0b8e6ee015a854bf0f03d0491cc5c89dda786273cf6fa87e91",
+          "snapshot": "evidence/sources/a0f3a0434434af0b8e6ee015a854bf0f03d0491cc5c89dda786273cf6fa87e91.ts"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence.",
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "string"
+    }
+  },
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation.",
+    "proxyRecipes": {}
+  },
+  "values": {
+    "inj0": "file://org.oh.ppv630.resourceowner/data/storage/el2/base/haps/entry/files"
+  },
+  "execution": {
+    "executed": true
+  }
+}

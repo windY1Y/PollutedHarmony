@@ -1,0 +1,78 @@
+{
+ "schema": "oh-pp-validation630-bindings-v1",
+ "card": "T12",
+ "api": "TLSSocket.connect",
+ "experimentScope": "T12 secureOptions.ca omitted: prototype-chain native property read plant of an attacker CA into the TLS trust store",
+ "executionContext": "ability_process",
+ "runId": "UNBOUND",
+ "group": "B",
+ "repetition": 1,
+ "bindingRevision": "static-v1",
+ "timeoutMs": 20000,
+ "afterTimeoutMs": 5000,
+ "cellDeadlineSec": 60,
+ "ordinary": {
+  "bind": {
+   "address": "0.0.0.0",
+   "family": 1,
+   "port": 0
+  },
+  "options": {
+   "address": {
+    "address": "10.98.36.180",
+    "family": 1,
+    "port": 18446
+   },
+   "secureOptions": {
+    "protocols": [
+     1
+    ]
+   }
+  }
+ },
+ "injection": {
+  "key": "ca",
+  "value": "X",
+  "path": [
+   "secureOptions"
+  ]
+ },
+ "shadow": "T12-SHADOW-not-a-certificate",
+ "receiverBinding": {
+  "argument": 0,
+  "kind": "argument",
+  "path": [
+   "secureOptions"
+  ]
+ },
+ "fixtures": {
+  "server": {
+   "address": "10.98.36.180",
+   "port": 18446,
+   "path": "/t12",
+   "tls": "server.crt signed by PPV3-LAB-CA (system-untrusted), SAN IP:10.98.36.180",
+   "log": "/data/oh-testing/v2/05_validation/round3-codegen-20261013/work/H01-run-20261013/server.jsonl",
+   "canary": "cfg.runId + \"-T12\" sent as X-PP-Canary header"
+  }
+ },
+ "controlSemantics": {
+  "B": "no injection; ca omitted -> system trust store; expect TLS verify failure 2300060",
+  "P": "single-root representative; no prerequisite injection (same as B)",
+  "PT": "Object.prototype.ca = PPV3-LAB-CA PEM -> expect handshake success + server request log",
+  "CLEAN": "policy-shadow control; no descriptor installed",
+  "OWN_SHADOW": "own ca on options.secureOptions = unrelated string -> expect failure, prototype getter reads = 0"
+ },
+ "supportedControls": [
+  "B",
+  "P",
+  "PT",
+  "CLEAN",
+  "OWN_SHADOW"
+ ],
+ "permissions": {
+  "requested": [
+   "ohos.permission.INTERNET"
+  ],
+  "note": "manifest declaration; actual grant bound by environment template"
+ }
+}

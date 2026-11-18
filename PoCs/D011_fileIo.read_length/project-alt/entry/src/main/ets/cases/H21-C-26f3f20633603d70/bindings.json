@@ -1,0 +1,214 @@
+{
+  "schema": "oh-pp-validation630-bindings-v1",
+  "caseId": "H21-C-26f3f20633603d70",
+  "card": "H21",
+  "group": "B",
+  "runId": "UNBOUND",
+  "repetition": 1,
+  "repetitions": 3,
+  "timeoutMs": 20000,
+  "afterTimeoutMs": 5000,
+  "ordinary": {
+    "fileName": "ppv630-file.txt",
+    "contents": "PPV630_A_0123456789_PP V630_B",
+    "bufferBytes": 64,
+    "writeData": "PPV630_WRITE",
+    "options": {},
+    "randomAccessOptions": {}
+  },
+  "values": {
+    "inj0": {
+      "$proxy": {
+        "kind": "legacy-callable",
+        "coercion": "0",
+        "get": {},
+        "maxDepth": 16
+      }
+    }
+  },
+  "shadowValue": null,
+  "receiverBinding": {
+    "kind": "argument",
+    "argument": 2,
+    "path": []
+  },
+  "fixtures": {},
+  "environment": {
+    "HAP_hash": null,
+    "image_hashes": null,
+    "UID": null,
+    "TokenID": null,
+    "APL": null,
+    "ACL": null,
+    "runtime_grants": null,
+    "user": null,
+    "sandbox": null,
+    "server_state": null
+  },
+  "permissions": {
+    "manifest_mentions": [
+      "ohos.permission.DISTRIBUTED_DATASYNC"
+    ],
+    "requested": [],
+    "actual_grants": null,
+    "note": "Do not automatically request all historical permissions. Bind exact caller manifest/profile and actual device grants."
+  },
+  "review": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  },
+  "sourceReview": {
+    "hypothesisManuallyReviewed": true,
+    "basis": "user statement; not parameter, compilation, or runtime validation"
+  },
+  "proposedFixtureValuesNotValidated": true,
+  "executionContext": "ability_process",
+  "supportedControls": [
+    "B",
+    "P",
+    "PT",
+    "CLEAN"
+  ],
+  "valueBindingNotes": {
+    "dynamicReferences": "$resource names are bound in prepare() before prototype injection. Missing resources fail closed.",
+    "proxyRecipes": {
+      "inj0": {
+        "requiredRepresentation": {
+          "$proxy": {
+            "target": {},
+            "get": {}
+          }
+        },
+        "status": "UNBOUND: match original proxy traps from injector evidence; empty recipe is not a validated payload"
+      }
+    },
+    "ordinaryValues": "Proposed bounded canary inputs; requires original callsite and device review. Never marked verified by generation."
+  },
+  "resetRequirements": {
+    "freshProcess": true,
+    "sameResourceInitialState": true,
+    "perControlResetHookRequired": true,
+    "recordExternalStateBeforeAndAfter": true
+  },
+  "oracleContract": "../../oracle-contracts/H21-C-26f3f20633603d70.json",
+  "valueBindingEvidence": {
+    "inj0": {
+      "purpose": "bounded_validation_payload",
+      "recordedMode": "proxy",
+      "declarations": [
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 952,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 973,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 995,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1020,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1057,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1080,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1341,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1379,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1403,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1871,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1906,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1928,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1947,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 1981,
+          "declaration": "position?: number;"
+        },
+        {
+          "field": "position",
+          "snapshot": "evidence/sources/372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08.ts",
+          "sha256": "372830048efac6b281e7307a4845fb21af72acd0fc2ff458c4e08b33b9ea7a08",
+          "line": 2002,
+          "declaration": "position?: number;"
+        }
+      ],
+      "historicalValueReplay": false,
+      "note": "Payload selected for validation; historical numeric taint markers are not replayed. Recorded path/mode/order unchanged. API type acceptance and security effect require runtime evidence."
+    }
+  },
+  "bindingRevision": "static-v1",
+  "bindingLimit": "Concrete payloads and declarations are bound; this does not mark device identity, grants, exact historical callsite, or security oracle verified."
+}

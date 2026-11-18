@@ -1,0 +1,7 @@
+{
+  "key": "onLongPress",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onLongPress;ppMode:proxy"
+}

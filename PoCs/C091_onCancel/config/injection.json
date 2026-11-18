@@ -1,0 +1,7 @@
+{
+  "key": "onCancel",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onCancel;ppMode:proxy"
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "caseId": "H23-C-aac5f892e27bac5f",
+    "group": "PT",
+    "key": "availableIn",
+    "ordinaryInputs": {
+      "plainBytes": 4096,
+      "trials": 8,
+      "outputBytes": 8192,
+      "canaryBytes": 16,
+      "level": 6,
+      "flush": 4
+    },
+    "payloadDescription": {
+      "key": "availableIn",
+      "value": 4096
+    }
+  },
+  {
+    "group": "PT"
+  },
+  {
+    "caseId": "H23-C-aac5f892e27bac5f",
+    "group": "PT",
+    "key": "availableIn",
+    "ordinaryInputs": {
+      "plainBytes": 4096,
+      "trials": 8,
+      "outputBytes": 8192,
+      "canaryBytes": 64,
+      "level": 6,
+      "flush": 4
+    },
+    "payloadDescription": {
+      "key": "availableIn",
+      "value": 4096
+    }
+  }
+]

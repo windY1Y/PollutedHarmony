@@ -1,0 +1,21 @@
+{
+  "key": "add",
+  "mode": "proxy",
+  "path": "",
+  "injections": [
+    {
+      "mode": "object",
+      "path": [
+        "label"
+      ]
+    },
+    {
+      "mode": "proxy",
+      "path": [
+        "label",
+        "add"
+      ]
+    }
+  ],
+  "testArgs": "ppSpec:%7B%22version%22%3A1%2C%22properties%22%3A%5B%7B%22mode%22%3A%22object%22%2C%22path%22%3A%5B%22label%22%5D%7D%2C%7B%22mode%22%3A%22proxy%22%2C%22path%22%3A%5B%22label%22%2C%22add%22%5D%7D%5D%7D;ppSession:10c989ca8ca3834c31785e2c"
+}

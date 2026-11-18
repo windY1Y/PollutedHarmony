@@ -1,0 +1,7 @@
+{
+  "key": "accessibilityLevel",
+  "mode": "object",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:camera#atomB1;ppMode:object"
+}

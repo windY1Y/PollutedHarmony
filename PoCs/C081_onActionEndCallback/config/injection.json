@@ -1,0 +1,7 @@
+{
+  "key": "onActionEndCallback",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onActionEndCallback;ppMode:proxy"
+}

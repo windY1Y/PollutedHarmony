@@ -1,0 +1,7 @@
+{
+  "key": "onMeasure",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onMeasure;ppMode:proxy"
+}

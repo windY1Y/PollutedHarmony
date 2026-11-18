@@ -1,0 +1,5 @@
+{
+  "id": "D018",
+  "api": "webSocket.connect",
+  "property": "skipServerCertVerification"
+}

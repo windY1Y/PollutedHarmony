@@ -1,0 +1,31 @@
+{
+  "caseId": "H02-C-40888142714f6c38",
+  "includedCaseIds": [
+    "H02-C-40888142714f6c38",
+    "H02-C-b96f88965f5bcaa5",
+    "H03-C-7f990d8293a997d0",
+    "H03-C-81a93fb3c7ea64ab",
+    "H03-C-fad6af43f6017208",
+    "H03-C-aa3cb85bc8e050ca",
+    "H03-C-29f86cf66acc0cce",
+    "H04-C-04fd6c38208a47e9",
+    "H04-C-05f83d91181acbe4",
+    "H04-C-3ccbb8ddc0526220",
+    "H04-C-9155d2bb67e669ca",
+    "H04-C-d2ca077096dbf5ac",
+    "H04-C-32c7e9b57473e933"
+  ],
+  "card": "H02",
+  "adapter": "socket",
+  "role": "runner",
+  "bundleName": "org.oh.ppv3.runner",
+  "compiled": false,
+  "deviceExecuted": false,
+  "bindingReviewRequired": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  }
+}

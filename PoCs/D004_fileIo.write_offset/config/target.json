@@ -1,0 +1,5 @@
+{
+  "id": "D004",
+  "api": "fileIo.write",
+  "property": "offset"
+}

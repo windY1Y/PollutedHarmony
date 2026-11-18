@@ -1,0 +1,7 @@
+{
+  "key": "allowChildTypes",
+  "mode": "proxy",
+  "path": "apply.forEach",
+  "injections": null,
+  "testArgs": "ppKey:allowChildTypes;ppMode:proxy"
+}

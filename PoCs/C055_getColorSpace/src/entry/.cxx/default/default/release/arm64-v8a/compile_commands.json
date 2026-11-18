@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/manager/plugin_manager.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/manager/plugin_manager.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/manager/plugin_manager.cpp",
+  "output": "CMakeFiles/nativerender.dir/manager/plugin_manager.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/napi_render_init.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/napi_render_init.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/napi_render_init.cpp",
+  "output": "CMakeFiles/nativerender.dir/napi_render_init.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/setKeyProcessingMode/key_processing_mode.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/setKeyProcessingMode/key_processing_mode.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/setKeyProcessingMode/key_processing_mode.cpp",
+  "output": "CMakeFiles/nativerender.dir/setKeyProcessingMode/key_processing_mode.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/scroll/scroll_backtotop_test.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/scroll/scroll_backtotop_test.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/scroll/scroll_backtotop_test.cpp",
+  "output": "CMakeFiles/nativerender.dir/scroll/scroll_backtotop_test.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/component/component.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/component.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/component.cpp",
+  "output": "CMakeFiles/nativerender.dir/component/component.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/component/grid_component.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/grid_component.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/grid_component.cpp",
+  "output": "CMakeFiles/nativerender.dir/component/grid_component.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/component/list_component.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/list_component.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/list_component.cpp",
+  "output": "CMakeFiles/nativerender.dir/component/list_component.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/component/scroll_component.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/scroll_component.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/scroll_component.cpp",
+  "output": "CMakeFiles/nativerender.dir/component/scroll_component.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/component/waterflow_component.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/waterflow_component.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/waterflow_component.cpp",
+  "output": "CMakeFiles/nativerender.dir/component/waterflow_component.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/component/button_component.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/button_component.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/button_component.cpp",
+  "output": "CMakeFiles/nativerender.dir/component/button_component.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/component/text_component.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/text_component.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/component/text_component.cpp",
+  "output": "CMakeFiles/nativerender.dir/component/text_component.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/keyDisPatchTest/keyEventDispatch_test.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/keyDisPatchTest/keyEventDispatch_test.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/keyDisPatchTest/keyEventDispatch_test.cpp",
+  "output": "CMakeFiles/nativerender.dir/keyDisPatchTest/keyEventDispatch_test.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/focusControl/focus_control.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/focusControl/focus_control.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/focusControl/focus_control.cpp",
+  "output": "CMakeFiles/nativerender.dir/focusControl/focus_control.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativerender_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativerender.dir/getGestureParam/getGestureParam.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/getGestureParam/getGestureParam.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/getGestureParam/getGestureParam.cpp",
+  "output": "CMakeFiles/nativerender.dir/getGestureParam/getGestureParam.cpp.o"
+},
+{
+  "directory": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/.cxx/default/default/release/arm64-v8a",
+  "command": "/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/llvm --sysroot=/home/openharmony/prebuilts/ohos-sdk/linux/20/native/sysroot -DOHOS_PLATFORM -Dnativefunc_EXPORTS -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp -I/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O2 -DNDEBUG  -fPIC -o CMakeFiles/nativefunc.dir/napi_func_init.cpp.o -c /home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/napi_func_init.cpp",
+  "file": "/home/openharmony/test/xts/acts/arkui/ace_c_arkui_nowear_test_api15/entry/src/main/cpp/napi_func_init.cpp",
+  "output": "CMakeFiles/nativefunc.dir/napi_func_init.cpp.o"
+}
+]

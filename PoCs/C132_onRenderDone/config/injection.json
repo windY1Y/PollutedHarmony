@@ -1,0 +1,7 @@
+{
+  "key": "onRenderDone",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onRenderDone;ppMode:proxy"
+}

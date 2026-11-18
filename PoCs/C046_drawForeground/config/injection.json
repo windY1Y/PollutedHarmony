@@ -1,0 +1,7 @@
+{
+  "key": "drawForeground",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:drawForeground;ppMode:proxy"
+}

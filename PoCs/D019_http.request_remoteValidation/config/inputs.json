@@ -1,0 +1,272 @@
+[
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "B",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-15f03f4953c34bc0834edd80edbd6396"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "CLEAN",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-264434b3867f4cf4af184d0bf0e7783a"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "CLEAN",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-2d1d61b8c3d548ca9d50a3a245799034"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "OWN_SHADOW",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-4bdaf9e8634641c2a741aae94bff781e"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "PT",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-4f885cc50e71430ea80ec592b13d81d2"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "PT",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-6d2e5a4d425f4a9ea7338c28e76a40f7"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "P",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-75db8604c68e4e819ed2ef9a2525c45d"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "CLEAN",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-7ba152c867c74c8b9a9176390c92b64b"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "P",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-9ce40366b5d742399de2856c5bbc4ded"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "OWN_SHADOW",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-a4357d2f37674f27bf28232774c02743"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "B",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-ab1a1250fb314dfd852ce9da3c286d07"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "B",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-c1594c2c541f482e9c3f967a0e94dc65"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "OWN_SHADOW",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-c1e3370fd43c4b2a9b96f27b92b0172e"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "PT",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-df788b88523742db8bb0d2505ea1d38d"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  },
+  {
+    "caseId": "H01-C-55fbc3e288aaaf91",
+    "group": "P",
+    "key": "remoteValidation",
+    "ordinaryInputs": {
+      "options": {
+        "connectTimeout": 5000,
+        "header": {
+          "X-PP-Canary": "H01-C-55fbc3e288aaaf91-formal-20261017-e455c721fa954cc1aa4d640b9201c37d"
+        }
+      },
+      "url": "https://10.98.36.180:18443/tls"
+    },
+    "payloadDescription": {
+      "key": "remoteValidation",
+      "value": "skip"
+    }
+  }
+]

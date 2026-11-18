@@ -1,0 +1,21 @@
+{
+  "caseId": "H37-C-98359f134027f6ef",
+  "includedCaseIds": [
+    "H37-C-6fc6dbd31faea7e6",
+    "H37-C-74510e9edd7fa5a1",
+    "H37-C-98359f134027f6ef"
+  ],
+  "card": "H37",
+  "adapter": "certificate",
+  "role": "runner",
+  "bundleName": "org.oh.ppv3.runner",
+  "compiled": false,
+  "deviceExecuted": false,
+  "bindingReviewRequired": {
+    "callsiteAndOverload": false,
+    "injectionSemantics": false,
+    "fixedArguments": false,
+    "environment": false,
+    "oracle": false
+  }
+}

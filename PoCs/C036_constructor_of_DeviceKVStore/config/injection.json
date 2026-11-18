@@ -1,0 +1,7 @@
+{
+  "key": "constructor_of_DeviceKVStore",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:constructor_of_DeviceKVStore;ppMode:proxy"
+}

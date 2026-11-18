@@ -1,0 +1,7 @@
+{
+  "key": "controller",
+  "mode": "proxy",
+  "path": "updateInstanceId",
+  "injections": null,
+  "testArgs": "ppKey:controller;ppMode:proxy"
+}

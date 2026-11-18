@@ -1,0 +1,31 @@
+export class WebState {
+  url: string = '';
+  pendingUrl: string = '';
+  httpProbe: boolean = false;
+  attached: boolean = false;
+  handlerSet: boolean = false;
+  handlerError: string = '';
+  loadUrlCalled: boolean = false;
+  loadUrlError: string = '';
+  pageBegin: string = '';
+  pageEnd: string = '';
+  pageEndCount: number = 0;
+  requested: boolean = false;
+  requestCount: number = 0;
+  requestUrls: Array<string> = [];
+  respondedCount: number = 0;
+  respondError: string = '';
+  httpRequestUrls: Array<string> = [];
+  consoleMsgs: Array<string> = [];
+  executed: boolean = false;
+  jsReadback: string = '';
+  jsError: string = '';
+  netErrors: Array<string> = [];
+  done: boolean = false;
+  t0: number = 0;
+  tAttach: number = 0;
+  tLoad: number = 0;
+  tEnd: number = 0;
+  tDone: number = 0;
+}
+export const webState: WebState = new WebState();

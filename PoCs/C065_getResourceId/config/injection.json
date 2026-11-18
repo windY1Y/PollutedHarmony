@@ -1,0 +1,7 @@
+{
+  "key": "backgroundColor",
+  "mode": "proxy",
+  "path": "getResourceId",
+  "injections": null,
+  "testArgs": "ppKey:backgroundColor;ppMode:proxy"
+}

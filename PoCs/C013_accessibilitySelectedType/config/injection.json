@@ -1,0 +1,7 @@
+{
+  "key": "accessibilitySelectedType",
+  "mode": "object",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:comment;ppMode:object"
+}

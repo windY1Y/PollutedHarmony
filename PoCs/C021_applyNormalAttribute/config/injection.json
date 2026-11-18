@@ -1,0 +1,7 @@
+{
+  "key": "applyNormalAttribute",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:applyNormalAttribute;ppMode:proxy"
+}

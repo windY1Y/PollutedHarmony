@@ -1,0 +1,7 @@
+{
+  "key": "onTypeDidChange",
+  "mode": "proxy",
+  "path": "",
+  "injections": null,
+  "testArgs": "ppKey:onTypeDidChange;ppMode:proxy"
+}
